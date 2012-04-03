@@ -1,0 +1,101 @@
+
+
+td.ms-crm-TabBar-Cell
+{
+background-position: bottom;
+background-image: url(/_imgs/tab_line.gif);
+background-repeat: repeat-x;
+}
+
+li.ms-crm-Tab
+{
+border-width: 1px;
+border-style: solid;
+height: 20px;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 2px;
+background-repeat: repeat-x;
+cursor: hand;
+
+position: relative;
+float: left;
+
+}
+
+li.ms-crm-Tab-Selected
+{
+border-bottom-width: 0px;
+cursor: default;
+height: 21px;
+}
+
+div.ms-crm-Tab
+{
+width: 100%;
+height: 100%;
+border-bottom-style: solid;
+border-bottom-width: 1px;
+border-right-style: solid;
+border-right-width: 1px;
+border-left-style: solid;
+border-left-width: 1px;
+display: none;
+}
+
+div.ms-crm-InlineTab
+{
+width: 100%;
+display: block;
+}
+
+table.ms-crm-InlineTabHeader
+{
+margin-bottom: 3px;
+padding-bottom: 2px;
+
+padding-right: 3px;
+
+padding-top: 3px;
+width: 100%;
+}
+
+td.ms-crm-InlineTabHeaderExpander
+{
+vertical-align: middle;
+}
+
+td.ms-crm-InlineTabHeaderText
+{
+vertical-align: middle;
+width: 100%;
+}
+
+DIV.ms-crm-Form-Area
+{
+overflow-x:			auto;
+width:				100%;
+height:				100%;
+}
+
+DIV.ms-crm-Form-Area-Print
+{
+overflow-x:			visible;
+width:				100%;
+height:				100%;
+}
+
+ul.ms-crm-TabBar
+{
+
+border-left-width: 1px;
+border-left-style: solid;
+
+width: 100%;
+height: 20px;
+overflow: hidden;
+behavior: url(/_static/_nav/tabs.htc?ver=-339091135);
+margin: 0px;
+padding: 0px;
+list-style: none;
+}

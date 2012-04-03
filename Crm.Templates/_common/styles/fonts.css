@@ -1,0 +1,504 @@
+
+
+
+
+
+
+
+
+body,
+input,
+select,
+textarea,
+table.ms-crm-Loading
+{
+font-family:Segoe UI, Tahoma, Arial;
+font-size: 11px;
+}
+
+td
+{
+font-size: 11px;
+}
+
+th
+{
+font-size: 11px;
+font-weight: normal;
+}
+
+a,
+a:link img,
+a:link,
+a:visited img,
+a:visited,
+a:active img,
+a:active,
+a:hover img,
+a:hover
+{
+font-weight: normal;
+text-decoration: none;
+}
+
+h2
+{
+font-size: 16px;
+}
+button
+{
+font-size: 11px;
+}
+
+
+
+
+.ms-crm-Emphasis-Strong,
+.ms-crm-Bold-Header,
+.ms-crm-Column-SelectWidth,
+.ms-crm-Field-Label-Print,
+.ms-crm-Gantt-Progress-Label,
+.ms-crm-List-IndexItem,
+.ms-crm-List-PreviewLabel,
+.ms-crm-List-SelectedIndex,
+.ms-crm-MastHead-SignIn-User,
+.ms-crm-Unblock-Content-Link,
+.ms-crm-Wsdl-Title,
+A.ms-crm-Cal-Week-Header,
+A.ms-crm-Cal-Week-Header:active,
+A.ms-crm-Cal-Week-Header:hover,
+A.ms-crm-Cal-Week-Header:link,
+A.ms-crm-Cal-Week-Header:visited,
+A.ms-crm-TaskTree:active,
+A.ms-crm-TaskTree:hover,
+A.ms-crm-TaskTree:link,
+A.ms-crm-TaskTree:visited,
+div.formproperties_div,
+div.ganttBlockSelected,
+DIV.ms-crm-AddUsers-Licensing-AccessModeLabel,
+DIV.ms-crm-Cal-Week-Header,
+DIV.ms-crm-GettingStarted-Title,
+GanttControlFrame_label,
+Input.wfStageDescription,
+legend.ms-crm-recurrence-dialog-section-title,
+SPAN.attachment,
+span.bodyheader,
+span.location,
+SPAN.ms-crm-AdvFind-Message,
+SPAN.ms-crm-Menu-Group,
+SPAN.ms-crm-Menu-Group-Opened,
+SPAN.ms-crm-Menu-Group-Hovered,
+SPAN.ms-crm-NextButton,
+SPAN.ms-crm-WizardForm-Header-Title,
+td.am,
+TD.ms-crm-AdvFind-Label,
+TD.ms-crm-AdvFind-TitleLabel,
+TD.ms-crm-Form-Section,
+TD.ms-crm-Form-StatusBar,
+td.ms-crm-Menu-Title,
+TD.noteCreatedField,
+TD.noteSubjectField,
+td.pm,
+td.zoomheader,
+TEXTAREA.wfStageDescriptionReadOnly,
+TEXTAREA.wfStepDescriptionReadOnly,
+TD.ms-crm-Form-Footer TD.ms-crm-Field-Data-Print,
+TR.feEntityHeadingText
+{
+font-weight: bold;
+}
+
+TABLE.headerContainerTable ms-crm-Field-Label-Print,
+TABLE.headerContainerTable ms-crm-Field-Data-Print,
+TD.ms-crm-Form-Footer TD.ms-crm-Field-Label-Print,
+.ms-crm-Emphasis-None,
+span.InformationItem
+{
+font-weight: normal;
+}
+
+.ms-crm-Menu-Text
+{
+font-size: 11px;
+}
+
+.ms-crm-Error-Header
+{
+font-size: 14px;
+font-weight: bold;
+}
+DIV.ms-crm-Dialog-Header-Title
+{
+font-weight:	bold;
+font-size:		13px;
+}
+.ms-crm-Field-Required
+{
+font-weight:	normal;
+}
+.ms-crm-Field-Recommended
+{
+font-weight:		normal;
+}
+.ms-crm-NavHeader-Title,
+.ms-crm-ContextHeader-Title,
+.ms-crm-Setting-ContextHeader-Title,
+.ms-crm-Dialog-Title-Reversed
+
+{
+font-weight:    bold;
+font-size:      14px;
+}
+TABLE.popupMenu
+{
+font-size: 11px;
+}
+span.ms-crm-Form-Title
+{
+font-size:		11px;
+font-weight:	bold;
+}
+span.ms-crm-solution-title
+{
+font-size:		11px;
+font-weight:	bold;
+}
+.ms-crm-Form-Breadcrumb
+{
+font-size:		18px;
+font-weight:	bold;
+}
+
+
+
+
+
+li.ms-crm-Tab
+{
+font-size: 11px;
+}
+td.wizHead
+{
+font-weight: bold;
+font-size: 10px;
+}
+
+
+
+
+.ms-crm-Error-AdditionalInformation
+{
+font-weight:bold;
+font-size:10px;
+}
+TD.ms-crm-Dialog-Error-Title
+{
+font-weight:	bold;
+font-size:		14px;
+font-family:    Segoe UI, Tahoma, Arial;
+}
+TD.ms-crm-Dialog-Error-Body
+{
+font-size:		11px;
+font-family:    Segoe UI, Tahoma, Arial;
+}
+A.ms-crm-Dialog-Error-Link,
+A.ms-crm-Dialog-Error-Link:hover
+{
+font-size:		11px;
+font-family:    Segoe UI, Tahoma, Arial;
+}
+td.ms-crm-Grid-Title-Print
+{
+font-size: 16px;
+font-weight: bold;
+}
+TD.ms-crm-MastHead-SignIn
+{
+font-size: 11px;
+}
+div.aboutdefault_div_warnings
+{
+font-size:10px;
+font-weight: normal;
+}
+div.Articlesedit_article_div_secEdit
+{
+font-size: 9pt;
+}
+td.ms-crm-StatusBar-Copyright
+{
+font-size:          9px;
+}
+table.ms-crm-ViewForm-Header
+{
+font-size:			11px;
+}
+td.ms-crm-SignIn-Banner
+{
+font-size:18px;
+font-weight: bold;
+}
+
+TH.ms-crm-Group-Links,
+TH.ms-crm-Group,
+A.ms-crm-Nav-Group-Heading,
+A.ms-crm-Nav-Group-Heading:link,
+A.ms-crm-Nav-Group-Heading:visited,
+A.ms-crm-Nav-Group-Heading:active,
+A.ms-crm-Nav-Group-Heading:hover,
+NOBR.ms-crm-Nav-Group-Heading
+{
+font-weight: bold;
+font-size: 11px;
+}
+A.ms-crm-Nav-Area,
+A.ms-crm-Nav-Area:link,
+A.ms-crm-Nav-Area:visited,
+A.ms-crm-Nav-Area:active,
+A.ms-crm-Nav-Area:hover
+{
+font-weight: bold;
+font-size: 11px;
+}
+
+TR.ms-crm-MiniCal-Nav,
+TD.ms-crm-MiniCal-DayOfWeek,
+TD.ms-crm-MiniCal-Week-Number,
+TD.ms-crm-MiniCal-Day,
+TD.ms-crm-MiniCal-TodayBar,
+TD.ms-crm-MiniCal-TodayBar-Hovered,
+DIV.ms-crm-MiniCal-TodayBar
+{
+font-size: 8pt;
+}
+input.ms-crm-SelectBox
+{
+font-size: 11px;
+}
+SELECT.ms-crm-SelectBox,
+SELECT.ms-crm-SelectBox-WorkflowDesigner
+{
+font-size:			11px;
+}
+.subtitle
+{
+font-size: 14px;
+font-weight: bold;
+}
+A.linktitle,
+A.linktitle:link,
+A.linktitle:visited,
+A.linktitle:active,
+A.linktitle:hover
+{
+font-size: 14px;
+font-weight: bold;
+}
+
+A.linktitlesm,
+A.linktitlesm:link,
+A.linktitlesm:visited,
+A.linktitlesm:active,
+A.linktitlesm:hover
+{
+font-size: 11px;
+font-weight: bold;
+}
+
+div.linkhelp
+{
+font-size: 11px;
+}
+
+TEXTAREA.ms-crm-Note-Text
+{
+font-size: 8pt;
+}
+
+DIV.Notification
+{
+font-size:			8pt;
+}
+TD.CategoryHeadingText
+{
+font-size:		8pt;
+}
+TD.CategoryBody
+{
+font-size:			8pt;
+}
+TD.RelatedInformationTitle
+{
+font-weight:bold;
+font-size:11px;
+}
+DIV.AreaHeading
+{
+font-size:			8pt;
+font-weight:		bold;
+}
+SELECT.ContextSelect
+{
+font-size:			8pt;
+}
+DIV.InformationLoading
+{
+font-size:		8pt;
+}
+DIV.InformationMessage
+{
+font-size:		8pt;
+}
+
+
+div.info
+{
+font-size: 16px;
+font-weight: normal;
+}
+div.release
+{
+font-weight: bold;
+font-size: 12px;
+}
+span.norm
+{
+font-weight:normal;
+font-size:11px;
+}
+body.ms-crm-Cal-Body
+{
+font-size:			11px;
+}
+td.ms-crm-ArticleComment-Title
+{
+font-size: 8pt;
+font-weight: bold;
+}
+td.ms-crm-ArticleComment-Body
+{
+font-size: 8pt;
+}
+td.ms-crm-ArticleComment-Info
+{
+font-size: 7pt;
+}
+div.ms-crm-Help-ErrorMessage
+{
+font-weight:bold;
+font-size:16px;
+}
+span.ms-crm-Viz-Name,
+span.ms-crm-Viz-Name-hover,
+span.ms-crm-Viz-Name-select,
+label.ms-crm-viz-hd,
+.ms-crm-Help-Toc-Heading
+{
+font-size: 13px;
+}
+.ms-crm-Gantt-Progress-Cancel
+{
+font-size:9;
+}
+span.calendarTitle
+{
+font-size:			8pt;
+font-weight:		bold;
+}
+div.ganttHeaderTop
+{
+font-weight: bold;
+font-size: 10px;
+}
+body.ganttFrame
+{
+font-size: 6pt;
+}
+div.ganttHeaderBottom
+{
+font-size: 9px;
+}
+.ms-crm-Salesperson-Error
+{
+font-size:12px;
+}
+TABLE.example
+{
+font-size:			5px;
+}
+TD.example
+{
+font-size:			3px;
+}
+TABLE.gridheader
+{
+font-size:			11px;
+}
+TABLE.visualizationImageTable
+{
+font-family:        Tahoma, Verdana, Arial;
+}
+tr.gridheader
+{
+font-size:			11px;
+}
+.ms-crm-File-Upload
+{
+font-size:			8pt;
+}
+.ms-crm-SubjectTree-Label
+{
+font-size:12px;
+font-weight:bold;
+}
+div.manageAttribute_div_SchemaName
+{
+font-size:8pt;
+}
+input.icon
+{
+font-size:		8pt;
+}
+div.ms-crm-ViewManager
+{
+font-size:11px;
+}
+div.secTitle
+{
+font-weight:bold;
+font-size: 11px;
+}
+div.WizardTitle
+{
+font-weight: bold;
+font-size: 11px;
+}
+TD.ms-crm-WizardForm-Header-Title
+{
+font-size: 14px;
+}
+A.ms-crm-InlineTabHeaderText,
+A.ms-crm-InlineTabHeaderText:link,
+A.ms-crm-InlineTabHeaderText:visited,
+A.ms-crm-InlineTabHeaderText:active,
+A.ms-crm-InlineTabHeaderText:hover
+{
+font-size: 14px;
+font-weight: bold;
+}
+
+DIV.ms-crm-Tab-Print
+{
+font-size:			11pt;
+font-weight:		bolder;
+}
+INPUT.DashboardName
+{
+font-weight: bold;
+font-size: 14px;
+}
+LABEL.DashboardNameHint
+{
+font-size: 14px;
+}

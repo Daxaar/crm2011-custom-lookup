@@ -1,0 +1,347 @@
+
+
+UL.ms-crm-Nav-LeftBar
+{
+height:100%;
+width:100%;
+overflow-y: auto;
+overflow-x: hidden;
+padding: 0px;
+margin: 0px;
+list-style: none;
+}
+
+LI.ms-crm-Nav-Subarea
+{
+display: inline;
+padding: 0px;
+margin: 0px;
+}
+
+LI.ms-crm-Nav-Group
+{
+margin: 0px;
+padding-bottom: 7px;
+}
+LI.ms-crm-Nav-Group-HiddenFirst
+{
+border-top:	1px solid #6693cf;
+padding: 0px;
+margin: 0px;
+height: 0px;
+}
+LI.ms-crm-Nav-Group-Hidden
+{
+padding: 0px;
+margin: 0px;
+height: 0px;
+}
+
+A.ms-crm-Nav-Subarea-Link,
+A.ms-crm-Nav-Subarea-Link:link,
+A.ms-crm-Nav-Subarea-Link:visited,
+A.ms-crm-Nav-Subarea-Link:active,
+A.ms-crm-Nav-Subarea-Link:hover,
+A.ms-crm-Nav-Subitem-Link,
+A.ms-crm-Nav-Subitem-Link:link,
+A.ms-crm-Nav-Subitem-Link:visited,
+A.ms-crm-Nav-Subitem-Link:active,
+A.ms-crm-Nav-Subitem-Link:hover
+{
+height: 15px;
+cursor: hand;
+padding: 1px 2px;
+white-space: nowrap;
+
+text-align: left;
+
+width: 100%;
+}
+
+A.ms-crm-Nav-Subarea-Link,
+A.ms-crm-Nav-Subarea-Link:link,
+A.ms-crm-Nav-Subarea-Link:visited,
+A.ms-crm-Nav-Subarea-Link:active,
+A.ms-crm-Nav-Subarea-Link:hover
+{
+
+margin-left: 6px;
+
+}
+
+A.ms-crm-Nav-Subitem-Link,
+A.ms-crm-Nav-Subitem-Link:link,
+A.ms-crm-Nav-Subitem-Link:visited,
+A.ms-crm-Nav-Subitem-Link:active,
+A.ms-crm-Nav-Subitem-Link:hover
+{
+
+margin-left: 22px;
+
+}
+
+A.ms-crm-Nav-Subarea-Selected,
+A.ms-crm-Nav-Subarea-Selected:link,
+A.ms-crm-Nav-Subarea-Selected:visited,
+A.ms-crm-Nav-Subarea-Selected:active,
+A.ms-crm-Nav-Subitem-Selected,
+A.ms-crm-Nav-Subitem-Selected:link,
+A.ms-crm-Nav-Subitem-Selected:visited,
+A.ms-crm-Nav-Subitem-Selected:active
+{
+padding: 0px 1px;
+border-width: 1px;
+border-style: solid;
+}
+
+A.ms-crm-Nav-Subarea-Link:hover,
+A.ms-crm-Nav-Subarea-Selected:hover,
+A.ms-crm-Nav-Subarea-Hovered,
+A.ms-crm-Nav-Subitem-Link:hover,
+A.ms-crm-Nav-Subitem-Selected:hover,
+A.ms-crm-Nav-Subitem-Hovered
+{
+padding: 0px 1px !important;
+background-repeat: repeat-x;
+border-width: 1px !important;
+border-style: solid;
+}
+
+A.ms-crm-Nav-Subarea-Disabled,
+A.ms-crm-Nav-Subarea-Disabled:link,
+A.ms-crm-Nav-Subarea-Disabled:visited,
+A.ms-crm-Nav-Subarea-Disabled:active,
+A.ms-crm-Nav-Subarea-Disabled:hover
+{
+cursor: default;
+padding: 1px 2px !important;
+border-width: 0px !important;
+background-image: none;
+}
+
+TD.ms-crm-Form-LeftBar * A.ms-crm-Nav-Group-Heading,
+TD.ms-crm-Form-LeftBar * A.ms-crm-Nav-Group-Heading:link,
+TD.ms-crm-Form-LeftBar * A.ms-crm-Nav-Group-Heading:visited,
+TD.ms-crm-Form-LeftBar * A.ms-crm-Nav-Group-Heading:active,
+TD.ms-crm-Form-LeftBar * A.ms-crm-Nav-Group-Heading:hover
+{
+}
+
+A.ms-crm-Nav-Group-Heading,
+A.ms-crm-Nav-Group-Heading:link,
+A.ms-crm-Nav-Group-Heading:visited,
+A.ms-crm-Nav-Group-Heading:active,
+A.ms-crm-Nav-Group-Heading:hover
+{
+
+height: 19px;
+text-align: left;
+
+padding-top: 2px;
+cursor: hand;
+width: 100%;
+}
+
+UL.ms-crm-Nav-Group-Subareas
+{
+display: none;
+width: 100%;
+margin: 0px;
+
+padding-right: 10px;
+
+}
+
+NOBR.ms-crm-Nav-Subitem-Title,
+NOBR.ms-crm-Nav-Subarea-Title,
+NOBR.ms-crm-Nav-Group-Title
+{
+behavior: url(/_static/_forms/styles/mouseover.htc?ver=-339091135);
+}
+
+
+NOBR.ms-crm-Nav-Subitem-Title
+{
+
+margin-left: 28px;
+
+}
+
+NOBR.ms-crm-Nav-Subarea-Title
+{
+
+margin-left: 5px;
+
+}
+
+
+NOBR.ms-crm-Nav-Subarea-Title,
+NOBR.ms-crm-Nav-Group-Title
+{
+width: 80%;
+}
+
+IMG.ms-crm-Nav-Subarea-Icon
+{
+
+margin-left: 15px;
+
+width: 16px;
+height: 16px;
+}
+
+IMG.ms-crm-Nav-Group-RightIcon
+{
+
+vertical-align : middle;
+}
+
+A.ms-crm-FormSelector,
+A.ms-crm-FormSelector:link,
+A.ms-crm-FormSelector:visited,
+A.ms-crm-FormSelector:hover,
+A.ms-crm-FormSelector-Opened,
+A.ms-crm-FormSelector-Opened:link,
+A.ms-crm-FormSelector-Opened:visited,
+A.ms-crm-FormSelector-Opened:hover,
+DIV.ms-crm-FormSelector
+{
+
+padding-left: 4px;
+
+height: 18px;
+}
+
+DIV.ms-crm-FormSelector
+{
+
+margin-left: 4px;
+
+}
+
+A.ms-crm-FormSelector,
+A.ms-crm-FormSelector:link,
+A.ms-crm-FormSelector:visited,
+A.ms-crm-FormSelector:hover,
+A.ms-crm-FormSelector-Opened,
+A.ms-crm-FormSelector-Opened:link,
+A.ms-crm-FormSelector-Opened:visited,
+A.ms-crm-FormSelector-Opened:hover
+{
+
+margin-left: 3px;
+
+border: 1px solid;
+cursor: hand;
+}
+
+NOBR.ms-crm-FormSelector
+{
+vertical-align: middle;
+font-weight: bold;
+}
+
+SPAN.ms-crm-FormSelector
+{
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+width: 100%;
+}
+
+IMG.ms-crm-FormSelector
+{
+position: absolute;
+
+right: 0px;
+
+}
+
+UL.ms-crm-FormSelector
+{
+
+margin-left: 4px;
+
+
+padding-bottom: 1px;
+}
+
+
+TD.ms-crm-Form-Nav-cell
+{
+padding-top: 20px;
+padding-bottom: 8px;
+vertical-align: top;
+}
+
+TABLE.ms-crm-FormLeftNav-StandardLayout * TR.ms-crm-FormLeftNav-RelatedRow
+{
+height: 100%;
+}
+
+TABLE.ms-crm-FormLeftNav-ScrollingLayout * UL.ms-crm-FormSelector
+{
+overflow-y: auto;
+}
+
+TABLE.ms-crm-FormLeftNav-ScrollingLayout * TR.ms-crm-FormLeftNav-TabLinksRow
+{
+height: 60%;
+}
+
+TABLE.ms-crm-FormLeftNav-ScrollingLayout * TR.ms-crm-FormLeftNav-RelatedRow
+{
+height: 40%;
+}
+
+A.ms-crm-FormSelector-SubItem,
+A.ms-crm-FormSelector-SubItem:link,
+A.ms-crm-FormSelector-SubItem:visited
+{
+
+margin: 0px 1px 0px 4px;
+
+cursor: hand;
+width: 100%;
+}
+
+A.ms-crm-FormSelector-SubItem-Selected,
+A.ms-crm-FormSelector-SubItem-Selected:link,
+A.ms-crm-FormSelector-SubItem-Selected:visited,
+A.ms-crm-FormSelector-SubItem-Selected:active
+{
+
+margin: 0px 0px 0px 3px;
+
+border-width: 0px 1px 0px 1px;
+border-style: solid;
+}
+
+A.ms-crm-FormSelector-SubItem:hover,
+A.ms-crm-FormSelector-SubItem-Selected:hover,
+A.ms-crm-FormSelector-SubItem-Hovered
+{
+
+margin: 0px 0px 0px 3px !important;
+
+border-width: 0px 1px 0px 1px !important;
+border-style: solid;
+cursor: hand;
+background-repeat: repeat-x;
+width: 100%;
+}
+
+NOBR.ms-crm-FormSelector-SubItem
+{
+
+padding-left: 5px;
+
+width: 80%;
+}
+
+IMG.ms-crm-FormSelector-SubItem
+{
+
+margin-left: 5px;
+
+}

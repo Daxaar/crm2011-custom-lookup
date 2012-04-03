@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{34B24DCD-BD0D-4B8D-BE13-A30D79908718}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Crm.Templates</RootNamespace>
+    <AssemblyName>Crm.Templates</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="lookupForm.html" />
+    <Content Include="mainArea.html" />
+    <Content Include="mainForm.html" />
+    <Content Include="_common\styles\dialogs.css" />
+    <Content Include="_common\styles\fonts.css" />
+    <Content Include="_common\styles\global.css" />
+    <Content Include="_common\styles\select.css" />
+    <Content Include="_common\styles\theme.css" />
+    <Content Include="_controls\lookup\lookupdialogs.css" />
+    <Content Include="_forms\controls\controls.css" />
+    <Content Include="_forms\controls\form.css" />
+    <Content Include="_grid\appgrid.css" />
+    <Content Include="_imgs\ico_16_8.gif" />
+    <Content Include="_imgs\imagestrips\control_imgs.png" />
+    <Content Include="_imgs\imagestrips\entity16.png" />
+    <Content Include="_imgs\imagestrips\entity_imgs.png" />
+    <Content Include="_imgs\imagestrips\formentityimages.png" />
+    <Content Include="_imgs\imagestrips\grid_ctrl_imgs.png" />
+    <Content Include="_imgs\imagestrips\repeat-x-1.png" />
+    <Content Include="_imgs\imagestrips\repeat-x-14.png" />
+    <Content Include="_imgs\imagestrips\repeat-x-15.png" />
+    <Content Include="_imgs\imagestrips\repeat-x-16.png" />
+    <Content Include="_imgs\imagestrips\ribbon.png" />
+    <Content Include="_imgs\imagestrips\transparent_spacer.gif" />
+    <Content Include="_imgs\statusbar.gif" />
+    <Content Include="_imgs\theme\Outlook14Silver\ButtonNormalGradient.png" />
+    <Content Include="_imgs\theme\Outlook14Silver\ButtonSelectedGradient.png" />
+    <Content Include="_imgs\theme\Outlook14Silver\CalendarCtrlGradient.png" />
+    <Content Include="_imgs\theme\Outlook14Silver\collapse_left.gif" />
+    <Content Include="_imgs\theme\Outlook14Silver\collapse_lefthover.gif" />
+    <Content Include="_imgs\theme\Outlook14Silver\collapse_right.gif" />
+    <Content Include="_imgs\theme\Outlook14Silver\collapse_righthover.gif" />
+    <Content Include="_imgs\theme\Outlook14Silver\contextmenu_hover_18.png" />
+    <Content Include="_imgs\theme\Outlook14Silver\contextmenu_hover_20.png" />
+    <Content Include="_imgs\theme\Outlook14Silver\contextmenu_hover_22.png" />
+    <Content Include="_imgs\theme\Outlook14Silver\FormHeaderGradientTop.png" />
+    <Content Include="_imgs\theme\Outlook14Silver\FormTabLinkGradient.png" />
+    <Content Include="_imgs\theme\Outlook14Silver\form_back.png" />
+    <Content Include="_imgs\theme\Outlook14Silver\form_masthead.png" />
+    <Content Include="_imgs\theme\Outlook14Silver\form_toolbar_back.png" />
+    <Content Include="_imgs\theme\Outlook14Silver\GridColumnGradient.png" />
+    <Content Include="_imgs\theme\Outlook14Silver\GridColumnGradientHover.png" />
+    <Content Include="_imgs\theme\Outlook14Silver\GridTitleBarHorzLine.png" />
+    <Content Include="_imgs\theme\Outlook14Silver\GridToolbarBkgd.png" />
+    <Content Include="_imgs\theme\Outlook14Silver\Masthead.png" />
+    <Content Include="_imgs\theme\Outlook14Silver\Masthead_rtl.png" />
+    <Content Include="_imgs\theme\Outlook14Silver\mnu_hSpacer.png" />
+    <Content Include="_imgs\theme\Outlook14Silver\mnu_hSpacerGrid.png" />
+    <Content Include="_imgs\theme\Outlook14Silver\nav_hover_highlight.png" />
+    <Content Include="_imgs\theme\Outlook14Silver\RightClickMenuChannel.png" />
+    <Content Include="_imgs\theme\Outlook14Silver\TabGradient.gif" />
+    <Content Include="_nav\nav.css" />
+    <Content Include="_nav\tabs.css" />
+    <Content Include="_static\_forms\controls\form.crm.htc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="styles\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

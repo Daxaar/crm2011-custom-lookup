@@ -1,0 +1,16 @@
+<public:component lightweight="true">
+<public:property name="IsDirty" get="isDirty"/>
+<public:property name="DataXml" get="dataXml"/>
+<public:property name="DataValue" get="getDataValue" put="putDataValue"/>
+<public:property name="DataValueWithoutTrim" get="getDataValueWithoutTrim"/>
+<public:property name="Disabled" get="getDisabled" put="setDisabled"/>
+<public:property name="RequiredLevel" get="getRequiredLevel" />
+<public:property name="MaxLength" get="getMaxLength" />
+<public:property name="DataChangeHandler" />
+<public:method name="SetFocus" internalname="setFocus"/>
+<public:method name="FireOnChange" internalname="fireOnChange"/>
+<public:attach event="onblur" onevent="Parse()"/>
+<script language="JavaScript"></script><script type="text/javascript">
+function isDirty(){return this.defaultValue!=this.value}function dataXml(){var sID=this.id;return "<"+sID+">"+CrmEncodeDecode.CrmXmlEncode(Trim(this.value))+"</"+sID+">"}function Parse(){if(!getDisabled())if(!IsNull(this.maxlength)){var iMaxLength=parseInt(this.maxlength,10);value=Trim(value);if(value.length>iMaxLength)if(confirm(formatString(LOCID_EXCEEDED_MAX_CHARS_MASK,iMaxLength))){value=value.substring(0,iMaxLength);return true}else{select();return false}}return true}function getDataValueWithoutTrim(){return this.value}function getDataValue(){var vVal=Trim(this.value);return ""==vVal?null:vVal}function putDataValue(vVal){var sDisplayValue=vVal||"";if("string"==typeof sDisplayValue){value=sDisplayValue;if(Parse()){var fDataChangeHandler=this.DataChangeHandler;if(fDataChangeHandler)fDataChangeHandler()}}else alert(LOCID_DEVERROR_BADTYPE_STRING)}function getDisabled(){return this.contentEditable=="false"}function setDisabled(bValue){this.className=bValue?"ms-crm-ReadOnly":"";this.contentEditable=bValue?"false":"true"}function setFocus(){if(!IsNull(this.form)&&this.form.className=="ms-crm-Form")this.form.GetTab(element,true);element.focus();element.select()}function getMaxLength(){try{return parseInt(this.maxlength,10)}catch(e){return 2e3}}function fireOnChange(){this.fireEvent("onchange")}function getRequiredLevel(){try{if(IsNull(this.req))return FIELD_NOT_REQUIRED;else return parseInt(this.req,10)}catch(e){return FIELD_NOT_REQUIRED}}
+</script>
+</public:component>

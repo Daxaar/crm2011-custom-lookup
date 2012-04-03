@@ -1,0 +1,1068 @@
+
+
+body.ms-crm-Setting-Context-top,
+body
+{
+	background-color:#E9EDF1;
+	scrollbar-3dlight-color:#A5ACB5;
+	scrollbar-arrow-color:#3B3B3B;
+	scrollbar-base-color:#E9EDF1;
+	scrollbar-darkshadow-color:#A5ACB5;
+	scrollbar-face-color:#E9EDF1;
+	scrollbar-highlight-color:#E9EDF1;
+	scrollbar-shadow-color:#E9EDF1;
+	scrollbar-track-color:#E3E8ED;
+
+}
+
+div.ms-crm-TopBarContainerGlobal
+{
+	background-color:#FFFFFF;
+	background-image:url(../../_imgs/theme/Outlook14Silver/Masthead.png);
+
+}
+
+div.ms-crm-TopBarContainerForm
+{
+	background-image:url(../../_imgs/theme/Outlook14Silver/form_masthead.png);
+
+}
+
+table.htmlBar
+{
+	background-color:#EFF2F6;
+	border-color:#A5ACB5;
+
+}
+
+SPAN.htmlBtnHideable
+{
+	color:#000000;
+
+}
+
+TR.ms-crm-AdvFind-TitleArea
+{
+	background-color:#E9EDF1;
+
+}
+
+SPAN.ms-crm-AdvFind-EmptyField,
+DIV.ms-crm-AdvFind-FilterField
+{
+	border-color:#C6CBD2;
+
+}
+
+td.ms-crm-Context-cell,
+td.ms-crm-ContextHeader-Title,
+td.ms-crm-Setting-ContextHeader-Title,
+td.ms-crm-Context-cell,
+table.home_import_table,
+td.homepage_menubar,
+span.#crmMenuBar,
+IFRAME.noteData,
+table.homepage_table,
+DIV.feFilterEditor,
+DIV.feAFControls,
+div.editPage,
+DIV.editor,
+TABLE.ms-crm-AdvFind-Title-table-WithTopBorder,
+TABLE.ms-crm-AdvFind-Title-table,
+TABLE.ms-crm-AdvFindControl,
+SPAN.ms-crm-AdvFind-Detailed,
+.ms-crm-PaneControl-LeftRight-footer,
+.ms-crm-PaneControl-TopDown-footer,
+TD.ms-crm-gridPaneSepHor,
+TD.ms-crm-gridPaneSepVerTD,
+TD.ms-crm-gridPaneSepMotionHorTD,
+table.ms-crm-CompCntrlBrdr,
+td.dashboard-brdr,
+.ms-crm-control-SideStrip,
+DIV.listEdit_valuelist,
+IFRAME.ms-crm-Email-Body,
+IFRAME.ms-crm-Custom,
+div.ms-crm-DataField,
+div.ms-crm-ToolBar-Shadow
+{
+	border-color:#A5ACB5;
+
+}
+
+TD.ms-crm-Cal-Day-Time
+{
+	background-color:#EFF2F6;
+
+}
+
+table.ms-crm-Home-Cal-Body
+{
+	background-color:#F6F8FA;
+
+	border-color:#A5ACB5;
+
+}
+
+div.ms-crm-Home-Cal-CreateNew-Title,
+td.ms-crm-Home-Cal-Header
+{
+	color:#3B3B3B;
+
+}
+
+div.ms-crm-Home-Cal-Views-Title
+{
+	color:#3B3B3B;
+
+	border-color:#DBDEE1;
+
+}
+
+TD.ms-crm-Cal-Month-Nav,
+Div.ms-crm-Cal-Week-Header
+{
+	border-color:#DBDEE1;
+
+}
+
+table.ms-crm-Home-Cal-CreateNew-Items,
+body.ms-crm-Cal-Body
+{
+	color:#000000;
+
+	border-color:#DBDEE1;
+
+}
+td.ganttHeaderRowBottom,
+div.ganttHeaderTop,
+td.ganttSheet,
+td.gridSpacer
+{
+	border-color:#C6CBD2;
+
+}
+
+hr.separator
+{
+	color:#C6CBD2;
+
+}
+
+table#ganttPageBodyTable,
+td.calendarPane
+{
+	background-color:#EFF2F6;
+
+}
+
+td.gridSpacer,
+td.ganttHeaderRowTop,
+td.ganttHeaderRowBottom,
+td.bottomSpacerBar
+{
+	background-color:#F6F8FA;
+
+}
+
+TABLE.ms-crm-Cal-Month-DayOfWeek-Header
+{
+	background-color:#EFF2F6;
+
+}
+TD.ms-crm-Cal-Month-Day-NotCurrent
+{
+	background-color:#C0C0C0;
+
+}
+
+TD.ms-crm-Cal-Month-Day,
+TD.ms-crm-Cal-Month-DayOfWeek
+{
+	border-color:#C6CBD2;
+
+}
+
+table.ms-crm-MenuBar
+{
+	background-image:url(../../_imgs/theme/Outlook14Silver/form_toolbar_back.png);
+
+}
+
+UL.ms-crm-MenuList,
+div.ms-crm-Standard-Popup,
+SPAN.ms-crm-Menu-Group,
+SPAN.ms-crm-Menu-Group-Opened,
+SPAN.ms-crm-Menu-Group-Hovered
+{
+	background-image:url(../../_imgs/theme/Outlook14Silver/RightClickMenuChannel.png);
+
+}
+
+button
+{
+	border-color:#666666;
+	background-image:url(../../_imgs/theme/Outlook14Silver/ButtonNormalGradient.png);
+
+}
+
+BUTTON.ms-crm-Button-Hover
+{
+	border-color:#336699;
+	background-image:url(../../_imgs/theme/Outlook14Silver/ButtonSelectedGradient.png);
+
+}
+
+DIV.feEntityHeadingBar,
+TD.ms-crm-WizardForm-Footer,
+.ms-crm-PaneControl-LeftRight-footer,
+.ms-crm-PaneControl-TopDown-footer,
+TD.ms-crm-gridPaneSepMotionHorTD,
+DIV.ms-crm-gridPaneSepMotionHorDiv,
+div.ms-crm-gridPaneSepDivVer,
+.ms-crm-control-SideStrip,
+DIV.ms-crm-WizardForm-Main,
+table.ms-crm-Form-Title,
+TABLE.ms-crm-Form-Title-NoNav,
+TABLE.ms-crm-Form-Layout
+{
+	background-color:#E9EDF1;
+
+}
+
+span.ms-crm-Form-Entity-Name
+{
+	color:#3B3B3B;
+
+}
+
+.ms-crm-Form-Breadcrumb,
+h1.ms-crm-Form
+{
+	color:#3B3B3B;
+
+}
+
+h2.ms-crm-Form
+{
+	color:#1261E1;
+
+}
+
+h3.ms-crm-Form
+{
+	color:#3B3B3B;
+
+}
+
+TD.ms-crm-Form-SectionBar
+{
+	border-bottom-color:#C0C0C0;
+
+}
+
+BODY.NotesData hr
+{
+	color:#C0C0C0;
+
+}
+
+.noteHeaderSelected
+{
+	background-color:#A7CDF0;
+
+}
+
+TD.noteCreatedField,
+TD.ms-crm-Field-Required,DIV.ms-crm-Field-Required,TD.ms-crm-Field-Recommended,DIV.ms-crm-Field-Recommended,TD.ms-crm-Field-Normal,DIV.ms-crm-Field-Normal
+{
+	color:#3B3B3B;
+
+}
+TABLE.ms-crm-Form-Body
+{
+	background-color:#F6F8FA;
+	border-color:#A5ACB5;
+
+}
+
+TABLE.ms-crm-Form-Page-Table
+{
+	background-color:#F6F8FA;
+	border-color:#A5ACB5;
+
+	background-image:url(../../_imgs/theme/Outlook14Silver/FormHeaderGradientTop.png);
+
+}
+
+TABLE.headerContainerTable .ms-crm-Field-Label-Print,
+TD.ms-crm-Form-Footer TD.ms-crm-Field-Label-Print,
+.ms-crm-Form-Title-Label
+{
+	color:#656669;
+
+}
+
+TABLE.headerContainerTable .ms-crm-Field-Data-Print,
+TD.ms-crm-Form-Footer TD.ms-crm-Field-Data-Print,
+.ms-crm-Form-Title-Data
+{
+	color:#000000;
+
+}
+
+.ms-crm-Field-Label-Print
+{
+	color:#3B3B3B;
+
+}
+
+.ms-crm-Field-Data-Print
+{
+	color:#000000;
+
+}
+
+DIV.ms-crm-Form-Information-Title
+{
+	background-color:#EFF2F6;
+	border-bottom-color:#A1A5AA;
+
+}
+
+BODY.NotesData,
+div.ms-crm-InlineTab
+{
+	background-color:#F6F8FA;
+
+}
+
+ul.ms-crm-TabBar
+{
+	border-left-color:#A5ACB5;
+
+}
+
+li.ms-crm-Tab
+{
+	border-top-color:#A5ACB5;
+	border-bottom-color:#A5ACB5;
+	border-left-color:#F6F8FA;
+	border-right-color:#A5ACB5;
+	background-image:url(../../_imgs/theme/Outlook14Silver/TabGradient.gif);
+
+}
+
+li.ms-crm-Tab-Selected
+{
+	background-color:#F6F8FA;
+	border-bottom-color:#F6F8FA;
+	background-image:none;
+
+}
+
+div.ms-crm-Tab
+{
+	border-bottom-color:#A5ACB5;
+	border-left-color:#A5ACB5;
+	border-right-color:#A5ACB5;
+
+}
+
+TD.ms-crm-MiniCal-Header,
+DIV.ms-crm-MiniCal-TodayBar,
+TD.ms-crm-MiniCal-TodayBar,
+TD.ms-crm-MiniCal-DayOfWeek,
+TD.ms-crm-MiniCal-Week-Number,
+TD.ms-crm-MiniCal-Day
+{
+	background-color:#F6F8FA;
+
+}
+
+TD.ms-crm-MiniCal-Month,
+TD.ms-crm-MiniCal-TodayBar-Hovered
+{
+	border-color:#DBDEE1;
+
+}
+
+
+TR.ms-crm-Form-Background
+{
+
+
+
+}
+
+TR.ms-crm-Form-FormFrameBkgd
+{
+	background-color:#F6F8FA;
+
+}
+
+TR.ms-crm-TitleRowBkgd
+{
+	background-color:#D2D5D9;
+
+}
+
+TR.ms-crm-Form-FieldAlternateFieldBkgd
+{
+	background-color:#FFFFFF;
+
+}
+
+TD.BizRolesedit_td_u,
+TD.BizRolesedit_td_r
+{
+	border-left-color:#C0C0C0;
+	border-right-color:#C0C0C0;
+
+}
+
+.ms-crm-ChartText
+{
+	color:#000000;
+
+}
+
+.ms-crm-StatusLabel
+{
+	color:#3B3B3B;
+
+}
+
+A.ms-crm-Nav-Group-Heading,
+A.ms-crm-Nav-Group-Heading:link,
+A.ms-crm-Nav-Group-Heading:visited,
+A.ms-crm-Nav-Group-Heading:active,
+A.ms-crm-Nav-Group-Heading:hover,
+A.ms-crm-Nav-Subarea-Link,
+A.ms-crm-Nav-Subarea-Link:link,
+A.ms-crm-Nav-Subarea-Link:visited,
+A.ms-crm-Nav-Subarea-Link:active,
+NOBR.ms-crm-Nav-Group-Heading
+{
+	color:#3B3B3B;
+
+}
+
+TD.ms-crm-Form-HeaderContainer
+{
+	border-bottom-color:#A5ACB5;
+
+}
+TD.ms-crm-Form-Footer
+{
+	border-top-color:#A5ACB5;
+
+}
+LI.ms-crm-ImageStrip-wunderbar_sel  NOBR.ms-crm-NavBar-Area-Title
+{
+	color:#000000;
+
+}
+
+TR.associatedGrid_viewRow
+{
+	background-color:#B0E9FD;
+
+}
+
+DIV.ms-crm-Category-List,
+TD.CategoryBody
+{
+	background-color:#FFFFFF;
+	border-color:#A5ACB5;
+
+}
+
+
+LI.ms-crm-AVS-MenuItem-qrk,
+
+LI.ms-crm-VS-MenuItem-qrk,
+SPAN.ms-crm-CM-MenuItem-Icon-Rest-qrk,
+A.ms-crm-RS-MenuItem-Anchor-qrk,
+A.ms-crm-VS-MenuItem-Anchor-qrk,
+DIV.ms-crm-VS-MenuItem-Separator-qrk-h,
+span.ms-crm-CMsub-MenuItem-Sep-Rest,
+NOBR.ms-crm-CMsub-MenuItem-Title-Rest,
+SPAN.ms-crm-CMsub-MenuItem-Icon-Rest,
+SPAN.ms-crm-CMsub-MenuItem-Aux-Rest
+{
+	background-color:#FFFFFF;
+	border-color:#FFFFFF;
+
+}
+
+SPAN.ms-crm-Menu-Label-Opened
+{
+	background-color:#FFD86C;
+	border-color:#C2821B;
+
+}
+
+SPAN.ms-crm-Menu-Label-Hovered
+{
+	background-color:#FDEEB3;
+	border-color:#F1C43F;
+
+}
+
+div.ms-crm-Standard-Item-Glow
+{
+	border-color:#61A6E4;
+
+}
+
+span.ms-crm-View-Name-hover,
+span.ms-crm-View-Name-select
+{
+	background-color:#FFFFFF;
+
+}
+
+A.ms-crm-View-Name:hover,
+A.ms-crm-View-Name-hover:link,
+A.ms-crm-View-Name-hover:hover
+{
+	background-color:#FFFFFF;
+	border-color:#61A6E4;
+
+}
+
+A.ms-crm-View-Name:active,
+A.ms-crm-View-Name-hover:active,
+A.ms-crm-View-Name-hover:visited,
+A.ms-crm-View-Name-select,
+A.ms-crm-View-Name-select:link,
+A.ms-crm-View-Name-select:visited,
+A.ms-crm-View-Name-select:hover,
+A.ms-crm-View-Name-select:active
+{
+	background-color:#FFFFFF;
+	border-color:#237CCD;
+
+}
+
+SPAN.ms-crm-CMsub-MenuItem-Aux-Hover,
+span.ms-crm-CMsub-MenuItem-Sep-Hover,
+SPAN.ms-crm-CMsub-MenuItem-Icon-Hover,
+NOBR.ms-crm-CMsub-MenuItem-Title-Hover,
+SPAN.ms-crm-in-CM-MenuItem-Icon-Hover,
+SPAN.ms-crm-in-CM-MenuItem-Sep-Hover,
+NOBR.ms-crm-in-CM-MenuItem-Title-Hover,
+SPAN.ms-crm-CM-MenuItem-Icon-Hover,
+SPAN.ms-crm-CM-MenuItem-Icon-Hover-qrk,
+span.ms-crm-CM-MenuItem-Sep-Hover,
+span.ms-crm-CM-MenuItem-Sep-Hover-qrk,
+NOBR.ms-crm-CM-MenuItem-Title-Hover,
+NOBR.ms-crm-CM-MenuItem-Title-Hover-qrk
+{
+	background-image:url(../../_imgs/theme/Outlook14Silver/contextmenu_hover_18.png);
+
+}
+
+div.ms-crm-Standard-Item-Glow,
+NOBR.ms-crm-SVS-MenuItem-Title-Hover-qrk,
+NOBR.ms-crm-BVS-MenuItem-Title-Hover-qrk,
+NOBR.ms-crm-TVS-MenuItem-Title-Hover-qrk,
+LI.ms-crm-AVS-MenuItem-Hover-qrk,
+SPAN.ms-crm-MenuItem-Label-Opened,
+SPAN.ms-crm-MenuItem-Label-Hovered,
+SPAN.ms-crm-MenuItem-Label-Opened,
+SPAN.ms-crm-MenuItem-Label-Hovered,
+TR.ms-crm-DE-PreviewSelector,
+LI.ms-crm-RV-MenuItem-Hover,
+LI.ms-crm-RV-view-item-MenuItem-Hover,
+A.ms-crm-RV-MenuItem-Aux-Hover,
+A.ms-crm-RV-view-item-MenuItem-Aux-Hover,
+SPAN.ms-crm-AVS-MenuItem-Icon-Hover-qrk,
+span.ms-crm-AVS-MenuItem-Sep-Hover-qrk,
+NOBR.ms-crm-AVS-MenuItem-Title-Hover-qrk,
+SPAN.ms-crm-VS-MenuItem-Icon-Hover-qrk,
+span.ms-crm-VS-MenuItem-Sep-Hover-qrk,
+NOBR.ms-crm-VS-MenuItem-Title-Hover-qrk,
+A.ms-crm-RS-MenuItem-Anchor-Hover-qrk,
+NOBR.ms-crm-FS-MenuItem-Title-Hover-qrk,
+LI.ms-crm-LK-MenuItem-Hover-qrk,
+LI.ms-crm-LK-MenuItem-Selected-qrk
+{
+	background-image:url(../../_imgs/theme/Outlook14Silver/contextmenu_hover_20.png);
+
+}
+
+SPAN.ms-crm-CMsub-MenuItem-Aux-Hover,
+SPAN.ms-crm-CMsub-MenuItem-Icon-Hover,
+SPAN.ms-crm-MenuItem-Label-Opened,
+SPAN.ms-crm-MenuItem-Label-Hovered,
+SPAN.ms-crm-MenuItem-Label-Opened,
+SPAN.ms-crm-MenuItem-Label-Hovered,
+A.ms-crm-RS-MenuItem-Anchor-Hover-qrk,
+SPAN.ms-crm-in-CM-MenuItem-Icon-Rest,
+LI.ms-crm-RV-MenuItem-Hover,
+LI.ms-crm-RV-view-item-MenuItem-Hover,
+A.ms-crm-RV-MenuItem-Aux-Hover,
+A.ms-crm-RV-view-item-MenuItem-Aux-Hover,
+SPAN.ms-crm-AVS-MenuItem-Icon-Hover-qrk,
+SPAN.ms-crm-VS-MenuItem-Icon-Hover-qrk,
+SPAN.ms-crm-in-CM-MenuItem-Icon-Hover,
+SPAN.ms-crm-CM-MenuItem-Icon-Hover,
+SPAN.ms-crm-CM-MenuItem-Icon-Hover-qrk
+{
+	border-top-color:#61A6E4;
+	border-bottom-color:#61A6E4;
+	border-left-color:#61A6E4;
+
+}
+
+SPAN.ms-crm-AVS-MenuItem-Aux-Hover-qrk,
+SPAN.ms-crm-CMsub-MenuItem-Aux-Hover,
+SPAN.ms-crm-MenuItem-Label-Opened,
+SPAN.ms-crm-MenuItem-Label-Hovered,
+SPAN.ms-crm-MenuItem-Label-Opened,
+SPAN.ms-crm-MenuItem-Label-Hovered,
+NOBR.ms-crm-VS-MenuItem-Title-Hover-qrk,
+A.ms-crm-RS-MenuItem-Anchor-Hover-qrk,
+LI.ms-crm-RV-MenuItem-Hover,
+LI.ms-crm-RV-view-item-MenuItem-Hover,
+A.ms-crm-RV-MenuItem-Aux-Hover,
+A.ms-crm-RV-view-item-MenuItem-Aux-Hover,
+NOBR.ms-crm-in-CM-MenuItem-Title-Hover,
+NOBR.ms-crm-CM-MenuItem-Title-Hover,
+NOBR.ms-crm-CM-MenuItem-Title-Hover-qrk
+{
+	border-top-color:#61A6E4;
+	border-bottom-color:#61A6E4;
+	border-right-color:#61A6E4;
+
+}
+
+span.ms-crm-AVS-MenuItem-Sep-Hover-qrk,
+NOBR.ms-crm-AVS-MenuItem-Title-Hover-qrk,
+NOBR.ms-crm-CMsub-MenuItem-Title-Hover,
+span.ms-crm-CMsub-MenuItem-Sep-Hover,
+span.ms-crm-VS-MenuItem-Sep-Hover-qrk,
+LI.ms-crm-RV-MenuItem-Hover,
+LI.ms-crm-RV-view-item-MenuItem-Hover,
+span.ms-crm-in-CM-MenuItem-Sep-Hover,
+span.ms-crm-CM-MenuItem-Sep-Hover,
+span.ms-crm-CM-MenuItem-Sep-Hover-qrk
+{
+	border-top-color:#61A6E4;
+	border-bottom-color:#61A6E4;
+
+}
+
+span.ms-crm-CMsub-MenuItem-Sep,
+SPAN.ms-crm-AVS-MenuItem-Separator-hm-qrk,
+SPAN.ms-crm-AVS-MenuItem-Separator-hl-qrk,
+SPAN.ms-crm-AVS-header-MenuItem-Sep-qrk,
+SPAN.ms-crm-AVS-MenuItem-Sep-Rest-qrk,
+SPAN.ms-crm-VS-MenuItem-Separator-hm-qrk,
+SPAN.ms-crm-VS-MenuItem-Separator-hl-qrk,
+span.ms-crm-TVS-MenuItem-Sep-Hover-qrk,
+span.ms-crm-BVS-MenuItem-Sep-Hover-qrk,
+span.ms-crm-SVS-MenuItem-Sep-Hover-qrk,
+SPAN.ms-crm-VS-header-MenuItem-Sep-qrk,
+SPAN.ms-crm-SVS-MenuItem-Sep-Rest-qrk,
+SPAN.ms-crm-BVS-MenuItem-Sep-Rest-qrk,
+SPAN.ms-crm-TVS-MenuItem-Sep-Rest-qrk,
+SPAN.ms-crm-VS-MenuItem-Sep-Rest-qrk,
+SPAN.ms-crm-CM-MenuItem-Separator-hl,
+span.ms-crm-CM-header-MenuItem-Sep-Rest,
+span.ms-crm-CM-header-MenuItem-Sep-Hover,
+SPAN.ms-crm-in-CM-MenuItem-Sep-Rest,
+span.ms-crm-CM-MenuItem-Sep-Rest,
+span.ms-crm-CM-MenuItem-Sep-Rest-qrk,
+SPAN.ms-crm-CM-MenuItem-Separator-hm
+{
+	background-color:#E2E4E7;
+
+}
+
+LI.ms-crmAVS-MenuItem-Selected-qrk,
+TD.ms-crm-CalendarView-Selected,
+span.ms-crm-CMsub-MenuItem-Sep-Selected,
+NOBR.ms-crm-CMsub-MenuItem-Title-Selected,
+SPAN.ms-crm-CMsub-MenuItem-Icon-Selected,
+SPAN.ms-crm-CMsub-MenuItem-Aux-Selected,
+SPAN.ms-crm-AVS-MenuItem-Icon-Selected-qrk,
+NOBR.ms-crm-AVS-MenuItem-Title-Selected-qrk,
+SPAN.ms-crm-AVS-MenuItem-Sep-Selected-qrk,
+SPAN.ms-crm-VS-MenuItem-Icon-Selected-qrk,
+NOBR.ms-crm-VS-MenuItem-Title-Selected-qrk,
+SPAN.ms-crm-VS-MenuItem-Sep-Selected-qrk,
+A.ms-crm-RS-MenuItem-Anchor-Selected-qrk
+{
+	background-color:#A7CDF0;
+	border-color:#A7CDF0;
+
+}
+
+A.ms-crm-Nav-Subitem-Link,
+A.ms-crm-Nav-Subitem-Link:link,
+A.ms-crm-Nav-Subitem-Link:visited,
+A.ms-crm-Nav-Subitem-Link:active
+{
+	color:#3B3B3B;
+
+}
+
+A.ms-crm-Nav-Subarea-Selected,
+A.ms-crm-Nav-Subarea-Selected:link,
+A.ms-crm-Nav-Subarea-Selected:visited,
+A.ms-crm-Nav-Subarea-Selected:active
+{
+	background-color:#A7CDF0;
+	border-color:#A7CDF0;
+
+}
+
+A.ms-crm-Nav-Subitem-Selected,
+A.ms-crm-Nav-Subitem-Selected:link,
+A.ms-crm-Nav-Subitem-Selected:visited,
+A.ms-crm-Nav-Subitem-Selected:active
+{
+	background-color:#A7CDF0;
+	border-color:#A7CDF0;
+
+}
+
+LI.ms-crm-NavBar-Subarea-Hovered,
+A.ms-crm-Nav-Subarea-Hovered,
+TD.ms-crm-CalendarView-Hover
+{
+	border-color:#61A6E4;
+	background-image:url(../../_imgs/theme/Outlook14Silver/nav_hover_highlight.png);
+
+}
+
+A.ms-crm-Nav-Subitem-Hovered,
+A.ms-crm-Nav-Subitem-Link:hover,
+A.ms-crm-Nav-Subitem-Selected:hover
+{
+	border-color:#3B3B3B;
+	background-image:url(../../_imgs/theme/Outlook14Silver/nav_hover_highlight.png);
+
+}
+
+TD.ms-crm-Dialog-Header
+{
+	background-color:#FFFFFF;
+	border-bottom-color:#A4ABB2;
+
+}
+
+table.ms-crm-MiniCampaign-Header,
+tr.ms-crm-MiniCampaign-Header
+{
+	background-color:#FFFFFF;
+	border-bottom-color:#A4ABB2;
+
+	color:#000000;
+
+}
+
+TD.ms-crm-WizardForm-Header-Title h2,
+DIV.ms-crm-Dialog-Header-Title
+{
+	color:#000000;
+
+}
+
+DIV.ms-crm-Dialog-Header-Desc
+{
+	color:#000000;
+
+}
+
+td.ms-crm-MiniCampaign-Main,
+DIV.ms-crm-WizardForm-Main,
+TD.ms-crm-Dialog-Main,
+DIV.ms-crm-Dialog-Main,
+body.ms-crm-ErrorDialog,
+body.ms-crm-Dialog-Body
+{
+	color:#000000;
+	background-color:#E9EDF1;
+	border-bottom-color:#A4ABB2;
+
+}
+
+TD.ms-crm-Dialog-Buttons,
+TD.ms-crm-Dialog-Footer
+{
+	background-color:#E9EDF1;
+	border-top-color:#FFFFFF;
+
+}
+
+td.wizHead
+{
+	color:#000000;
+	background-color:#EFF2F6;
+
+}
+
+table.ms-crm-ActionBar
+{
+	border-color:#A5ACB5;
+	background-image:url(../../_imgs/theme/Outlook14Silver/GridToolbarBkgd.png);
+
+}
+
+.ms-crm-List-Index
+{
+	color:#3B3B3B;
+	background-color:#F1F3F5;
+	border-top-color:#A1A5AA;
+
+}
+
+table.ms-crm-ListControl
+{
+	border-color:#A5ACB5;
+}
+
+.ms-crm-List-IndexItem,
+.ms-crm-List-SelectedIndex
+{
+	color:#15428B;
+
+}
+
+table.ms-crm-List-StatusBar
+{
+	background-color:#F1F3F5;
+	border-top-color:#C0C0C0;
+
+}
+
+.ms-crm-List-StatusBar-Label
+{
+
+}
+
+.ms-crm-List-Paging
+{
+	color:#666666;
+
+}
+
+.ms-crm-List-DataArea,
+.ms-crm-List-DataAreaEx
+{
+	background-color:#FFFFFF;
+
+}
+
+.ms-crm-List-Header
+{
+	background-color:#F6F8FA;
+	border-bottom-color:#A1A5AA;
+	background-image:url(../../_imgs/theme/Outlook14Silver/GridColumnGradient.png);
+
+}
+
+.ms-crm-List-Title
+{
+	background-color:#EFF2F6;
+
+}
+
+.ms-crm-list-TitleFilter
+{
+	background-color:#D9DEE4;
+
+}
+.ms-crm-list-Separator-line
+{
+	background-image:url(../../_imgs/theme/Outlook14Silver/GridTitleBarHorzLine.png);
+
+}
+
+TABLE#AppGridFilterContainer
+{
+	background-color:#D9DEE4;
+	border-top-color:#A1A5AA;
+
+}
+
+TR.ms-crm-List-SelectedMultilineRow,
+TR.ms-crm-List-SelectedRow
+{
+	background-color:#A7CDF0;
+
+}
+
+TR.ms-crm-List-HoveredMultilineRow,
+TR.ms-crm-List-HoveredRow
+{
+	background-color:#CEE3F6;
+
+}
+
+span.ms-crm-View-Entity-Name
+{
+	color:#3B3B3B;
+
+}
+
+span.ms-crm-View-Name
+{
+	color:#000000;
+
+}
+span.ms-crm-View-Name-hover
+{
+	background-color:#FFFFFF;
+
+}
+
+td.home_camps_td_Label,
+td.home_cases_td_Label,
+td.home_minicamps_td_Label,
+td.home_reports_td_ViewSelector
+{
+	color:#000000;
+
+}
+
+TD.ms-crm-Form-LeftBar
+{
+	border-top-color:#A5ACB5;
+	border-left-color:#A5ACB5;
+	border-right-color:#A5ACB5;
+
+}
+
+div.linkhelp
+{
+	color:#3B3B3B;
+
+}
+
+A.ms-crm-Link:hover
+{
+
+}
+
+A.ms-crm-Link,
+A.ms-crm-Link:link,
+A.ms-crm-Link:visited,
+A.ms-crm-Link:active
+{
+	color:#3B3B3B;
+
+}
+
+td.ms-crm-Setting-ContextHeader-Title,
+.ms-crm-NavHeader-Title,
+.ms-crm-ContextHeader-Title
+{
+	color:#000000;
+	background-color:#EFF2F6;
+	border-bottom-color:#DBDEE1;
+
+}
+
+.content
+{
+	background-color:#FFFFFF;
+	border-color:#A5ACB5;
+
+}
+
+.navigationsubtitle
+{
+	color:#3B3B3B;
+	border-bottom-color:#C0C0C0;
+
+}
+
+DIV.RelatedInformationPane
+{
+	background-color:#E9EDF1;
+	border-color:#E9EDF1;
+
+}
+
+A.ms-crm-FormSelector,
+DIV.ms-crm-FormSelector
+{
+	color:#3B3B3B;
+
+}
+
+A.ms-crm-FormSelector,
+A.ms-crm-FormSelector:link,
+A.ms-crm-FormSelector:visited
+{
+	border-color:#AAB3BD;
+
+}
+
+A.ms-crm-FormSelector:hover
+{
+	background-color:#FFF6D7;
+	border-color:#F4AE13;
+
+}
+
+A.ms-crm-FormSelector-Opened,
+A.ms-crm-FormSelector-Opened:link,
+A.ms-crm-FormSelector-Opened:visited,
+A.ms-crm-FormSelector-Opened:hover
+{
+	background-color:#FFDC63;
+	border-color:#F4AE13;
+
+}
+
+NOBR.ms-crm-FormSelector-SubItem
+{
+	color:#1261E1;
+
+}
+
+A.ms-crm-FormSelector-SubItem-Selected,
+A.ms-crm-FormSelector-SubItem-Selected:link,
+A.ms-crm-FormSelector-SubItem-Selected:visited,
+A.ms-crm-FormSelector-SubItem-Selected:active
+{
+	background-color:#A7CDF0;
+	border-color:#A7CDF0;
+
+}
+
+A.ms-crm-FormSelector-SubItem-Hovered
+{
+	border-color:#61A6E4;
+	background-image:url(../../_imgs/theme/Outlook14Silver/FormTabLinkGradient.png);
+
+}
+
+UL.ms-crm-Nav-LeftBar
+{
+	background-color:#E9EDF1;
+
+}
+
+A.recnav-up,
+A.recnav-down,
+A.recnav-dropdown
+{
+	border-color:#AAB3BD;
+
+}
+
+A.linktitle,
+A.linktitle:link,
+A.linktitle:visited,
+A.linktitle:active,
+A.linktitle:hover
+{
+	color:#000000;
+
+}

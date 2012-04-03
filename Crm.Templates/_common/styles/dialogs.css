@@ -1,0 +1,248 @@
+
+
+
+BODY
+{
+overflow: hidden;
+behavior: url(../../_static/_common/styles/dialogs.htc);
+}
+
+INPUT
+{
+width:			100%;
+height:			19px;
+}
+
+INPUT.radio
+{
+width:			16px;
+border:			0px;
+cursor:			hand;
+}
+
+INPUT.checkbox
+{
+height:			12px;
+width:			16px;
+border:			0px;
+cursor:			hand;
+}
+
+LABEL
+{
+cursor:			hand;
+}
+
+DIV.ms-crm-Dialog-Main
+{
+height:			100%;
+vertical-align:	top;
+padding-left:	5px;
+padding-right:	5px;
+padding-bottom: 5px;
+padding-top:	5px;
+overflow:		auto;
+border-bottom-style: solid;
+border-bottom-width: 1px;
+}
+
+
+
+
+TD.ms-crm-Dialog-Main
+{
+height:			100%;
+vertical-align:	top;
+border-bottom-style: solid;
+border-bottom-width: 1px;
+padding:		15px;
+}
+
+div.ms-crm-DataField
+{
+background-color: #ffffff;
+height: 115px;
+width: 342px;
+border-width: 1px;
+border-style: solid;
+overflow-y: auto;
+overflow-x: auto;
+}
+
+TD.ms-crm-Dialog-Buttons
+{
+
+text-align:		right;
+
+padding:		10px;
+height:			32px;
+}
+
+TD.ms-crm-Dialog-Header
+{
+border-bottom-style: solid;
+border-bottom-width: 1px;
+height:			51px;
+vertical-align:	top;
+padding:		5px;
+}
+
+TD.ms-crm-Field-Normal
+{
+padding-top:	5px;
+overflow:		hidden;
+text-overflow:	ellipsis;
+behavior: 		url(../../_static/_forms/styles/mouseover.htc);
+}
+
+INPUT.radio.ms-crm-Dialog-ListItemSelect
+{
+position:absolute;
+z-index:-1;
+border:none;
+width:auto;
+hidefocus=true;
+}
+LI.ms-crm-Dialog-ListHeader
+{
+width: 100%
+border-bottom: 1px solid #aca899;
+}
+LI.ms-crm-Dialog-ListItem
+{
+cursor: hand;
+padding: 3px;
+
+padding-left:0.5em;
+
+margin: 2px;
+}
+
+UL.ms-crm-Dialog-List
+{
+margin:		0px;
+list-style:	none;
+}
+
+DIV.ms-crm-Dialog-List
+{
+height:				100%;
+overflow-y:			scroll;
+background-color:	#FFFFFF;
+border:				1px solid #949E9C;
+}
+DIV.ms-crm-Dialog-List-Layered
+{
+padding: 6px;
+}
+
+DIV.ms-crm-Dialog-ScrollableList
+{
+height:				100%;
+width:				100%;
+overflow:			auto;
+background-color:	#FFFFFF;
+border:				1px solid #949E9C;
+}
+
+DIV.ms-crm-Dialog-ScrollableArea
+{
+height:				100%;
+width:				100%;
+overflow:			auto;
+}
+
+TD.ms-crm-Dialog-Footer
+{
+height:			30px;
+padding:		10px;
+border-top-style: solid;
+border-top-width: 1px;
+}
+
+DIV.ms-crm-Dialog-Header-Desc
+{
+padding-top:	4px;
+
+padding-left:	5px;
+
+}
+
+DIV.ms-crm-Dialog-Desc
+{
+padding-top:	4px;
+
+padding-left:	6px;
+
+}
+
+DIV.ms-crm-Tab
+{
+padding:		10px;
+}
+
+
+ms-crm-Dialog-BackgroundEx
+{
+background-color:#E3EFFF;
+}
+
+LI.ms-crm-Dialog-ListItem-ImportMap
+{
+cursor: hand;
+padding: 3px;
+border-bottom: 1px solid #C4DDFF;
+height:22px;
+white-space:nowrap;
+overflow:hidden;
+text-overflow:ellipsis;
+max-height:20px;
+
+padding-left:0.5em;
+
+}
+
+TD.ms-crm-Dialog-Info-Icon
+{
+padding-left: 0px;
+padding-right: 2px;
+}
+
+TD.ms-crm-Dialog-Error-Icon
+{
+padding-left: 12px;
+padding-right: 12px;
+}
+
+TABLE.ms-crm-Dialog-Error
+{
+margin-top: 24px;
+}
+
+DIV.ms-crm-Dialog-Error-Main
+{
+height:			100%;
+vertical-align:	top;
+padding-bottom: 5px;
+overflow:		auto;
+}
+
+TD.ms-crm-Dialog-Error-Footer
+{
+height:			30px;
+padding-left:	8px;
+padding-right:	8px;
+padding-bottom: 8px;
+}
+
+A.ms-crm-Dialog-Error-Link
+{
+color:#3366CC;
+text-decoration: none;
+}
+
+A.ms-crm-Dialog-Error-Link:hover
+{
+color:#0000FF;
+text-decoration: underline;
+}

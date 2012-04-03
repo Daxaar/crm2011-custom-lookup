@@ -1,0 +1,86 @@
+
+
+BODY
+{
+
+background-color: #E3EFF;
+}
+
+TD.sel
+{
+cursor:		hand;
+behavior: 	url(/_static/_forms/styles/mouseover.htc?ver=-339091135);
+}
+
+TD.ms-crm-Dialog-Main
+{
+padding:	10px;
+}
+
+DIV.ms-crm-Dialog-Lookup-Objects
+{
+background:	#ffffff;
+height:		100%;
+width:		100%;
+border:		1px solid #D1CDBB;
+overflow-y:	auto;
+overflow-x:	hidden;
+}
+
+IMG.ms-crm-Lookup-Item
+{
+height:				16px;
+width:				16px;
+vertical-align:		middle;
+
+margin-left:        2px;
+margin-right:       5px;
+
+}
+
+IMG.ms-crm-Lookup-PresenceItem
+{
+height:				12px;
+width:				12px;
+vertical-align:		middle;
+
+margin-left:        2px;
+margin-right:       5px;
+
+}
+
+
+TD.ms-crm-Dialog-Lookup-SearchArea
+{
+height:				25px;
+vertical-align:		top;
+
+padding-left:		0px;
+padding-right:		0px;
+padding-bottom:		5px;
+padding-top:		3px;
+}
+
+table.ms-crm-Dialog-Lookup-ListHeaderBar
+{
+width: 100%;
+height: 22px;
+border: 1px solid #DBDAC9;
+border-bottom: 1px solid #C5C1B1;
+background-color: #f0f0f0;
+}
+
+table.ms-crm-Dialog-Lookup-InlineMsg
+{
+position: absolute;
+width: 100%;
+z-index: -1;
+top: 55px;
+}
+
+td.ms-crm-Dialog-Lookup-InlineMsg
+{
+color: gray;
+padding: 25px;
+padding-top:0px;
+}

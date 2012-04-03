@@ -1,0 +1,483 @@
+
+
+BODY.ms-crm-AreaPage
+{
+background-color: transparent;
+}
+FORM.ms-crm-Form
+{
+margin:	0px;
+behavior: 			url(/_static/_forms/controls/form.crm.htc?ver=-339091135);
+}
+
+DIV.ms-crm-Tab
+{
+overflow-y:			auto;
+padding: 10px;
+}
+
+DIV.ms-crm-InlineTabContainer
+{
+overflow-y: auto;
+overflow-x: auto;
+height: 100%;
+}
+
+DIV.ms-crm-InlineTab,
+TD.ms-crm-Form-Areas
+{
+padding: 6px;
+}
+
+TABLE.ms-crm-FormSection
+{
+
+margin-left:		11px;
+
+}
+
+IMG.icon
+{
+
+margin-left:		2px;
+margin-right:		5px;
+
+}
+
+TD.ms-crm-Form-SectionBar-Spacer
+{
+height: 7px;
+}
+
+TD.ms-crm-Form-SectionBar
+{
+border-bottom-width: 1px;
+border-bottom-style: solid;
+}
+
+TD.ms-crm-Field-Required,DIV.ms-crm-Field-Required,TD.ms-crm-Field-Recommended,DIV.ms-crm-Field-Recommended,TD.ms-crm-Field-Normal,DIV.ms-crm-Field-Normal
+{
+overflow:		hidden;
+text-overflow:	ellipsis;
+padding-top:		5px;
+behavior: 		url(/_static/_forms/styles/mouseover.htc?ver=-339091135);
+}
+
+TABLE.ms-crm-Form-StatusBar
+{
+color: #ffffff;
+}
+
+table.ms-crm-Form-Dashboard
+{
+width: 100%;
+height: 100%;
+table-layout: fixed;
+background-color:#ffffff
+}
+body.ms-crm-Form-Dashboard
+{
+
+background-color:#ffffff
+}
+
+TD.ms-crm-Form-StatusBar
+{
+color:				#000000;
+
+padding-left:		5px;
+
+height:				24px;
+border-bottom:		1px solid #485673;
+}
+
+LABEL
+{
+cursor:				hand;
+}
+
+TD.ms-crm-Form-LeftBar-Header
+{
+
+text-align:			left;
+padding-left:12px;
+
+vertical-align:		top;
+padding-top: 22px;
+padding-bottom:4px;
+}
+
+TD.ms-crm-Form-LeftBar
+{
+
+text-align:			left;
+
+border-top-style: dotted;
+border-top-width: 1px;
+padding-top: 4px;
+vertical-align:		top;
+}
+
+TR.ms-crm-Form-Background
+{
+background-repeat: repeat-x;
+}
+
+TR.ms-crm-Form-HeaderContainer
+{
+min-height: 40px;
+}
+
+TD.ms-crm-Form-Footer TD.ms-crm-Field-Label-Print
+{
+
+padding-right: 10px;
+
+
+}
+
+TD.ms-crm-Form-Footer TD.ms-crm-Field-Data-Print
+{
+
+padding-left: 10px;
+
+}
+
+TD.ms-crm-Form-Footer TD.ms-crm-Field-Label-Print span
+{
+white-space: nowrap;
+}
+
+
+TABLE.ms-crm-Email-Body-Error
+{
+background-color:	#ffffae;
+border:				1px solid #c5c5c5;
+table-layout:		fixed;
+}
+
+DIV.ms-crm-Form-Area,
+DIV.ms-crm-Form-Area-Customize
+{
+overflow-x:			auto;
+}
+
+DIV.ms-crm-Form-Area-Customize
+{
+
+padding:			0px 7px 10px 10px;
+
+
+}
+
+td.ms-crm-Form-Page-Main-cell
+{
+padding: 8px;
+}
+
+TABLE.ms-crm-Form-Page-Table
+{
+padding: 1px;
+border-width: 1px;
+border-style: solid;
+background-repeat: repeat-x;
+}
+
+
+TABLE.ms-crm-Form-Layout
+{
+table-layout:		fixed;
+width:				100%;
+height:				100%;
+background-repeat: repeat-x;
+}
+
+TABLE.ms-crm-Form-Body
+{
+border-top-width: 1px;
+border-top-style: dotted;
+}
+
+
+TABLE.ms-crm-Form-Grid-Layout,
+TABLE.ms-crm-Form-SubGrid-Layout-Selected,
+TABLE.ms-crm-Form-AssociatedGrid-Layout,
+TABLE.ms-crm-Form-SubGrid-Layout
+{
+table-layout:		fixed;
+width:				100%;
+height:				100%;
+}
+
+TABLE.ms-crm-Form-SubGrid-Layout-Selected,
+TABLE.ms-crm-Form-AssociatedGrid-Layout
+{
+border:				2px #008BBE solid;
+}
+
+TABLE.ms-crm-Form-SubGrid-Layout
+{
+border:				1px #a1a5aa solid;
+}
+
+TR.ms-crm-Form-SubGrid-viewRow
+{
+background-color:   #80DBFC;
+}
+
+DIV.ms-crm-Roles-Form-Area
+{
+width:				100%;
+height:				100%;
+overflow:			auto;
+}
+
+TD.ms-crm-Form-Footer
+{
+padding-bottom: 3px;
+padding-left: 6px;
+padding-right: 6px;
+padding-top: 2px;
+min-height:	 26px;
+border-top-width: 1px;
+border-top-style: dotted;
+}
+TD.ms-crm-Form-Header-splitter
+{
+height: 8px;
+}
+
+TD.ms-crm-Form-footer-splitter
+{
+height: 4px;
+}
+
+TABLE.ms-crm-Form-StandaloneSection
+{
+table-layout: fixed;
+width: 100%;
+line-height: 16px;
+}
+
+.ms-crm-Field-Label-Print
+{
+behavior: url(/_static/_forms/styles/mouseover.htc?ver=-339091135);
+overflow: hidden;
+text-overflow: ellipsis;
+vertical-align: top;
+}
+
+.ms-crm-Field-Data-Print
+{
+vertical-align: top;
+word-wrap: break-word;
+}
+
+TABLE.formHeader
+{
+table-layout: auto;
+}
+TABLE.headerContainerTable TD
+{
+white-space: nowrap;
+
+}
+TABLE.headerContainerTable
+{
+table-layout: fixed;
+}
+
+.ms-crm-Form-Title-Label
+{
+font-size: 13px;
+font-weight : normal;
+}
+
+.ms-crm-Form-Title-Data
+{
+font-size: 17px;
+font-weight : bold;
+}
+
+TABLE.headerContainerTable .ms-crm-Field-Label-Print
+{
+font-size: 11px;
+font-weight : normal;
+line-height: 13px;
+}
+
+TABLE.headerContainerTable .ms-crm-Field-Data-Print,
+{
+font-size: 13px;
+font-weight : normal;
+line-height: 15px;
+}
+
+TABLE.headerContainerTable DIV.ms-crm-Field-Data-Print
+{
+padding-bottom: 9px;
+}
+
+
+.ms-crm-Field-DateTime-Print,
+.ms-crm-Field-Number-Print
+{
+direction: ltr;
+
+}
+TABLE.ms-crm-Form-Grid-Layout-Print
+{
+table-layout:		auto;
+}
+DIV.ms-crm-Form-Breadcrumb
+{
+padding-bottom: 5px;
+}
+
+SPAN.ms-crm-Form-Breadcrumb
+{
+
+padding-left: 3px;
+
+line-height: 20px;
+vertical-align: baseline;
+margin-top: 3px;
+}
+
+DIV.ms-crm-Form-Information-Title
+{
+line-height:		26px;
+border-bottom-width: 1px;
+border-bottom-style: solid;
+
+padding-left: 10px;
+
+}
+.ms-crm-Loading-Message
+{
+table-layout: fixed;
+padding:1;
+width:100%;
+height:100%;
+text-align:center;
+COLOR: black;
+}
+
+img.recnav-leftcap,
+img.recnav-rightcap
+{
+height : 21px;
+width : 2px;
+
+
+}
+
+img.recnav-dropdown
+{
+height : 21px;
+width : 15px;
+}
+
+img.recnav-line
+{
+height : 21px;
+width : 1px;
+}
+
+
+img.recnav-up
+{
+height : 21px;
+width : 19px;
+}
+
+
+img.recnav-down
+{
+height : 21px;
+width : 18px;
+}
+
+span.recnav-dropdown
+{
+width : 100px;
+height : 19px;
+margin-bottom : 4px;
+}
+
+
+img.recnav-dropdownfiller-disabled,
+img.recnav-dropdownfiller-rest,
+nobr.recnav-dropdown-rest
+{
+
+color : #23272c;
+}
+
+nobr.recnav-dropdown-disabled
+{
+
+color: #999999;
+}
+
+nobr.recnav-dropdown-hover,
+img.recnav-dropdownfiller-hover
+{
+
+color : #23272c;
+}
+nobr.recnav-dropdown-selected,
+img.recnav-dropdownfiller-selected
+{
+
+color : #23272c;
+}
+nobr.recnav-dropdown
+{
+overflow : hidden;
+text-overflow : ellipsis;
+
+height : 21px;
+width : 100px;
+
+vertical-align : top;
+
+line-height : 21px;
+
+
+
+font-family:Segoe UI, Tahoma, Arial;
+font-size: 11px;
+font-weight: normal;
+}
+img.recnav-dropdown-filler
+{
+height : 21px;
+width : 5px;
+}
+
+span.ms-crm-Form-RecNav
+{
+display : inline ;
+
+
+margin-right : 7px;
+float : right;
+
+
+margin-top : 6px;
+}
+
+a.recnav-up,
+a.recnav-down,
+a.recnav-dropdown
+{
+tab-index : 0;
+font-size: 11px;
+}
+TABLE.ms-crm-Dashboard-Area
+{
+width:				100%;
+height:				100%;
+padding:			0px 2px 2px 2px;
+}
