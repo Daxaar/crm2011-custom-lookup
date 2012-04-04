@@ -1,0 +1,61 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="34B24DCD-BD0D-4B8D-BE13-A30D79908718/f:knockout-latest.debug.js" caret="0" fromTop="0" />
+      <File id="34B24DCD-BD0D-4B8D-BE13-A30D79908718/d:_common/d:styles/f:fonts.css" caret="0" fromTop="0" />
+      <File id="34B24DCD-BD0D-4B8D-BE13-A30D79908718/d:_common/d:styles/f:global.css" caret="46471" fromTop="3" />
+      <File id="34B24DCD-BD0D-4B8D-BE13-A30D79908718/f:lookupFormTest.html" caret="335" fromTop="11" />
+      <File id="34B24DCD-BD0D-4B8D-BE13-A30D79908718/f:lookupForm.js" caret="255" fromTop="5" />
+      <File id="34B24DCD-BD0D-4B8D-BE13-A30D79908718/f:lookupForm.html" caret="340" fromTop="8" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="34B24DCD-BD0D-4B8D-BE13-A30D79908718/f:lookupForm.html" caret="4223" fromTop="29" />
+      <File id="34B24DCD-BD0D-4B8D-BE13-A30D79908718/f:lookupForm.html" caret="4223" fromTop="22" />
+      <File id="34B24DCD-BD0D-4B8D-BE13-A30D79908718/f:lookupForm.html" caret="4223" fromTop="14" />
+      <File id="34B24DCD-BD0D-4B8D-BE13-A30D79908718/f:lookupForm.html" caret="4223" fromTop="16" />
+      <File id="34B24DCD-BD0D-4B8D-BE13-A30D79908718/f:lookupForm.html" caret="4223" fromTop="20" />
+      <File id="34B24DCD-BD0D-4B8D-BE13-A30D79908718/f:lookupForm.html" caret="4223" fromTop="28" />
+      <File id="34B24DCD-BD0D-4B8D-BE13-A30D79908718/f:lookupForm.html" caret="4223" fromTop="23" />
+      <File id="34B24DCD-BD0D-4B8D-BE13-A30D79908718/f:lookupForm.html" caret="4243" fromTop="8" />
+      <File id="34B24DCD-BD0D-4B8D-BE13-A30D79908718/f:lookupForm.js" caret="937" fromTop="17" />
+      <File id="34B24DCD-BD0D-4B8D-BE13-A30D79908718/f:lookupForm.js" caret="937" fromTop="25" />
+      <File id="34B24DCD-BD0D-4B8D-BE13-A30D79908718/f:lookupForm.js" caret="937" fromTop="29" />
+      <File id="34B24DCD-BD0D-4B8D-BE13-A30D79908718/f:lookupForm.js" caret="937" fromTop="18" />
+      <File id="34B24DCD-BD0D-4B8D-BE13-A30D79908718/f:lookupForm.html" caret="3724" fromTop="35" />
+      <File id="34B24DCD-BD0D-4B8D-BE13-A30D79908718/f:lookupForm.html" caret="1771" fromTop="17" />
+      <File id="34B24DCD-BD0D-4B8D-BE13-A30D79908718/f:lookupForm.html" caret="4223" fromTop="18" />
+      <File id="34B24DCD-BD0D-4B8D-BE13-A30D79908718/f:lookupForm.js" caret="1335" fromTop="25" />
+      <File id="34B24DCD-BD0D-4B8D-BE13-A30D79908718/f:lookupForm.html" caret="4897" fromTop="27" />
+      <File id="34B24DCD-BD0D-4B8D-BE13-A30D79908718/f:lookupForm.html" caret="4528" fromTop="23" />
+      <File id="34B24DCD-BD0D-4B8D-BE13-A30D79908718/f:lookupForm.html" caret="6444" fromTop="11" />
+      <File id="34B24DCD-BD0D-4B8D-BE13-A30D79908718/f:lookupForm.html" caret="5759" fromTop="23" />
+      <File id="34B24DCD-BD0D-4B8D-BE13-A30D79908718/f:lookupForm.html" caret="4219" fromTop="28" />
+      <File id="34B24DCD-BD0D-4B8D-BE13-A30D79908718/f:lookupForm.html" caret="3769" fromTop="20" />
+      <File id="34B24DCD-BD0D-4B8D-BE13-A30D79908718/f:lookupForm.html" caret="3520" fromTop="12" />
+      <File id="34B24DCD-BD0D-4B8D-BE13-A30D79908718/f:lookupForm.html" caret="2513" fromTop="11" />
+      <File id="34B24DCD-BD0D-4B8D-BE13-A30D79908718/f:lookupForm.js" caret="70" fromTop="2" />
+      <File id="34B24DCD-BD0D-4B8D-BE13-A30D79908718/f:lookupForm.html" caret="7086" fromTop="23" />
+      <File id="34B24DCD-BD0D-4B8D-BE13-A30D79908718/f:lookupForm.html" caret="5687" fromTop="19" />
+      <File id="34B24DCD-BD0D-4B8D-BE13-A30D79908718/f:lookupForm.js" caret="255" fromTop="5" />
+      <File id="34B24DCD-BD0D-4B8D-BE13-A30D79908718/f:lookupForm.js" caret="1285" fromTop="19" />
+      <File id="34B24DCD-BD0D-4B8D-BE13-A30D79908718/f:lookupForm.html" caret="138" fromTop="4" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False" />
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>
