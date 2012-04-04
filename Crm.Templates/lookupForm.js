@@ -1,17 +1,20 @@
+
+//LATEST VERSION OF THE CODE IS AVAILABLE AT http://github.com/Daxaar
+
 function ViewModel(){
 
-	this.title = "Whatever you want as the title";
+	this.title = "This is the title of the page";
 	this.description = "Here is the description";
-	this.headings = ["Full Name", "Phone", "Business", "Site", "Title", "Email Address", "Something else"];
+    //Add as many columns as you like to the headings array
+	this.headings = ["Full Name", "Phone", "Business", "Site", "Title", "Email Address"];
+    //Fixed width for now.  I'll hook something up that sets based on length of content
     this.columnWidth = 150;
-	this.entities = [
-                    ["Darren Lewis", "000-111-2222","Octono Limited", "Birmingham", "Developer", "darren.lewis@octono.com" ,"another value"],
-		            ["Milly Lewis", "333-444-7777", "2e2", "Leeds", "Developer", "milly@here.com","another value"],
-		            ["Finley", "4444", "his business", "site", "title", "email@address","another value"],
-                    ["Darren", "12345", "my business", "site", "title", "email@address","another value"],
-		            ["Milly", "67890", "her business", "site", "title", "email@address","another value"],
-		            ["Finley", "4444", "his business", "site", "title", "email@address","another value"]
+	//Array of data.  Make sure the number of elements in the array matches the heading count
+    this.entities = [
+                    ["Darren Lewis", "000-111-2222","Octono Limited", "Birmingham", "Developer", "darren@octono.com"],
+		            ["Noriyuki Haga", "333-444-7777", "Swan Yamaha", "Up North", "Motorcycle Rider", "nori@here.com"]
 		           ];
+    //actions for each of the buttons on the form
 	this.actions = { 
                     ok: function () { alert('ok'); }, 
                     cancel: function () { alert('cancel'); },
