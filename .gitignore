@@ -40,3 +40,4 @@ App_Data/
 *.suo
 *.user
 *.StyleCop
+*.cache
