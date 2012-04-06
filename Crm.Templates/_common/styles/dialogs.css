@@ -4,7 +4,6 @@
 BODY
 {
 overflow: hidden;
-behavior: url(../../_static/_common/styles/dialogs.htc);
 }
 
 INPUT
@@ -92,7 +91,6 @@ TD.ms-crm-Field-Normal
 padding-top:	5px;
 overflow:		hidden;
 text-overflow:	ellipsis;
-behavior: 		url(../../_static/_forms/styles/mouseover.htc);
 }
 
 INPUT.radio.ms-crm-Dialog-ListItemSelect
@@ -101,7 +99,6 @@ position:absolute;
 z-index:-1;
 border:none;
 width:auto;
-hidefocus=true;
 }
 LI.ms-crm-Dialog-ListHeader
 {
