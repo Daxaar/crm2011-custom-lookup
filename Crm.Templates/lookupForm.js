@@ -12,10 +12,22 @@ function ViewModel(){
 	//Array of data.  Make sure the number of elements in the array matches the heading count
     this.entities = [
                     ["Darren Lewis", "000-111-2222","Octono Limited", "Birmingham", "Developer", "darren@octono.com"],
+		            ["Noriyuki Haga", "333-444-7777", "Swan Yamaha", "Up North", "Motorcycle Rider", "nori@here.com"],
+                    ["Darren Lewis", "000-111-2222", "Octono Limited", "Birmingham", "Developer", "darren@octono.com"],
+		            ["Noriyuki Haga", "333-444-7777", "Swan Yamaha", "Up North", "Motorcycle Rider", "nori@here.com"],
+                    ["Darren Lewis", "000-111-2222", "Octono Limited", "Birmingham", "Developer", "darren@octono.com"],
+		            ["Noriyuki Haga", "333-444-7777", "Swan Yamaha", "Up North", "Motorcycle Rider", "nori@here.com"],
+                    ["Darren Lewis", "000-111-2222", "Octono Limited", "Birmingham", "Developer", "darren@octono.com"],
+		            ["Noriyuki Haga", "333-444-7777", "Swan Yamaha", "Up North", "Motorcycle Rider", "nori@here.com"],
+                    ["Darren Lewis", "000-111-2222", "Octono Limited", "Birmingham", "Developer", "darren@octono.com"],
+		            ["Noriyuki Haga", "333-444-7777", "Swan Yamaha", "Up North", "Motorcycle Rider", "nori@here.com"],
+                    ["Darren Lewis", "000-111-2222", "Octono Limited", "Birmingham", "Developer", "darren@octono.com"],
+		            ["Noriyuki Haga", "333-444-7777", "Swan Yamaha", "Up North", "Motorcycle Rider", "nori@here.com"],
+                    ["Darren Lewis", "000-111-2222", "Octono Limited", "Birmingham", "Developer", "darren@octono.com"],
 		            ["Noriyuki Haga", "333-444-7777", "Swan Yamaha", "Up North", "Motorcycle Rider", "nori@here.com"]
 		           ];
     //actions for each of the buttons on the form
-	this.actions = { 
+    this.actions = { 
                     ok: function () { alert('ok'); }, 
                     cancel: function () { alert('cancel'); },
                     create: function () { alert('create'); },

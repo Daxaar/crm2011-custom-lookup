@@ -218,7 +218,12 @@ TD.ms-crm-Cal-Month-DayOfWeek
 button
 {
 	border-color:#666666;
-	background-image:url(_common/../_imgs/theme/Outlook14Silver/ButtonNormalGradient.png);
+	/*background-image:url(_common/../_imgs/theme/Outlook14Silver/ButtonNormalGradient.png);*/
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAUCAMAAAB70KeTAAAAA3NCSVQICAjb4U/gAAAAM1BMVEX////y8vLx8fHw8PDv7+/u7u7s7Ozd3d3b29va2trZ2dnX19fV1dXT09PS0tLR0dG2trbjSpxwAAAACXBIWXMAAAsSAAALEgHS3X78AAAAFnRFWHRDcmVhdGlvbiBUaW1lADAzLzMxLzEwyTLRCQAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNAay06AAAAAdSURBVAiZY2BgYIRDFiBkA0J2IOQEQm4g5AVDAQAGTACHePsLXwAAAABJRU5ErkJggg==);
+}
+
+button:hover {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAUCAMAAAB70KeTAAAAA3NCSVQICAjb4U/gAAAAPFBMVEX////h8fri8fnf8frb7/rW7frR6/nM6PjI5/fE5faY0e+Uz+2Oy+yJyOmCxOZ8wOR1u+FwuN5stNtanchs/rvUAAAACXBIWXMAAAsSAAALEgHS3X78AAAAFnRFWHRDcmVhdGlvbiBUaW1lADAzLzMxLzEwyTLRCQAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNAay06AAAAAnSURBVAiZHcIJCoAgAACwEWJ4m/7/r4lseK5wRO+RZEXVdMP0WfYPCZ4AvfzKRxQAAAAASUVORK5CYII=);
 }
 
 TABLE.headerContainerTable .ms-crm-Field-Label-Print,
