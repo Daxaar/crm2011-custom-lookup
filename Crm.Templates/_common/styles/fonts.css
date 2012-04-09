@@ -1,11 +1,3 @@
-
-
-
-
-
-
-
-
 body,
 input,
 select,
@@ -52,7 +44,7 @@ font-size: 11px;
 
 
 
-
+/*
 .ms-crm-Emphasis-Strong,
 .ms-crm-Bold-Header,
 .ms-crm-Column-SelectWidth,
@@ -107,6 +99,7 @@ TR.feEntityHeadingText
 {
 font-weight: bold;
 }
+*/
 
 TABLE.headerContainerTable ms-crm-Field-Label-Print,
 TABLE.headerContainerTable ms-crm-Field-Data-Print,

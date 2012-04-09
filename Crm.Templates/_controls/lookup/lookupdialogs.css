@@ -9,7 +9,6 @@ background-color: #E3EFF;
 TD.sel
 {
 cursor:		hand;
-behavior: 	url(/_static/_forms/styles/mouseover.htc?ver=-339091135);
 }
 
 TD.ms-crm-Dialog-Main

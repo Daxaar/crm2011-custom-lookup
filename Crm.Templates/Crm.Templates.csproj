@@ -47,7 +47,6 @@
     <Content Include="jquery-1.7.2.js" />
     <Content Include="knockout-2.0.0.js" />
     <Content Include="knockout-latest.debug.js" />
-    <Content Include="lookup-light.html" />
     <Content Include="lookupForm.html" />
     <Content Include="lookupForm.js" />
     <Content Include="lookupFormTest.html" />
