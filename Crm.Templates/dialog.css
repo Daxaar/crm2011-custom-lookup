@@ -1,5 +1,4 @@
-﻿.ms-crm-List-Header 
-{
+﻿.ms-crm-List-Header {
     background-color: rgb(246, 248, 250);
 }
 
@@ -19,39 +18,36 @@ table.ms-crm-Loading
 table,
 td,
 button,
-th
-{
+th{
     font-family:Segoe UI, Tahoma, Arial;
     font-size: 11px;
     font-weight: normal;
 }
 
-DIV.ms-crm-Dialog-Header-Title
-{
+DIV.ms-crm-Dialog-Header-Title{
     padding-left: 5px;
     font-weight: bold;
     font-size: 13px;
 }
 
-button
-{
-line-height: 18px;
-height: 20px;
-width: 84px;
-text-align: center;
-cursor: pointer;
-border-width: 1px;
-border-style: solid;
-background-repeat: repeat-x;
-padding-left: 5px;
-padding-right: 5px;
+button{
+    line-height: 18px;
+    height: 20px;
+    width: 84px;
+    text-align: center;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    background-repeat: repeat-x;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 nobr
 {
-width: 100%;
-overflow: hidden;
-text-overflow: ellipsis;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 
@@ -373,9 +369,7 @@ td.workflowTemplatePage_td_buttonsleft,
 td.workflowTemplatePage_td_left,
 th
 {
-
-text-align: left;
-
+    text-align: left;
 }
 
 .ms-crm-TextAlign-TrailingEdge,
@@ -474,17 +468,13 @@ TD.ms-crm-Dialog-Footer
 }
 DIV.ms-crm-Dialog-Header-Desc
 {
-padding-top:	4px;
-
-padding-left:	5px;
-
+    padding-top:	4px;
+    padding-left:	5px;
 }
 DIV.ms-crm-Dialog-Desc
 {
-padding-top:	4px;
-
-padding-left:	6px;
-
+    padding-top:	4px;
+    padding-left:	6px;
 }
 
 /*controls.css*/
