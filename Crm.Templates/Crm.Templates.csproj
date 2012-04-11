@@ -46,67 +46,10 @@
     <Content Include="dialog.css" />
     <Content Include="jquery-1.7.2.js" />
     <Content Include="knockout-2.0.0.js" />
-    <Content Include="knockout-latest.debug.js" />
     <Content Include="lookupForm.html" />
     <Content Include="lookupForm.js" />
-    <Content Include="lookupFormTest.html" />
-    <Content Include="mainArea.html" />
-    <Content Include="mainForm.html" />
-    <Content Include="_common\styles\dialogs.css" />
-    <Content Include="_common\styles\fonts.css" />
-    <Content Include="_common\styles\global.css" />
-    <Content Include="_common\styles\select.css" />
-    <Content Include="_common\styles\theme.css" />
-    <Content Include="_controls\lookup\lookupdialogs.css" />
-    <Content Include="_forms\controls\controls.css" />
-    <Content Include="_forms\controls\form.css" />
-    <Content Include="_grid\appgrid.css" />
-    <Content Include="_imgs\ico_16_8.gif" />
-    <Content Include="_imgs\imagestrips\control_imgs.png" />
-    <Content Include="_imgs\imagestrips\entity16.png" />
-    <Content Include="_imgs\imagestrips\entity_imgs.png" />
-    <Content Include="_imgs\imagestrips\formentityimages.png" />
-    <Content Include="_imgs\imagestrips\grid_ctrl_imgs.png" />
-    <Content Include="_imgs\imagestrips\repeat-x-1.png" />
-    <Content Include="_imgs\imagestrips\repeat-x-14.png" />
-    <Content Include="_imgs\imagestrips\repeat-x-15.png" />
-    <Content Include="_imgs\imagestrips\repeat-x-16.png" />
-    <Content Include="_imgs\imagestrips\ribbon.png" />
-    <Content Include="_imgs\imagestrips\transparent_spacer.gif" />
-    <Content Include="_imgs\statusbar.gif" />
-    <Content Include="_imgs\theme\Outlook14Silver\ButtonNormalGradient.png" />
-    <Content Include="_imgs\theme\Outlook14Silver\ButtonSelectedGradient.png" />
-    <Content Include="_imgs\theme\Outlook14Silver\CalendarCtrlGradient.png" />
-    <Content Include="_imgs\theme\Outlook14Silver\collapse_left.gif" />
-    <Content Include="_imgs\theme\Outlook14Silver\collapse_lefthover.gif" />
-    <Content Include="_imgs\theme\Outlook14Silver\collapse_right.gif" />
-    <Content Include="_imgs\theme\Outlook14Silver\collapse_righthover.gif" />
-    <Content Include="_imgs\theme\Outlook14Silver\contextmenu_hover_18.png" />
-    <Content Include="_imgs\theme\Outlook14Silver\contextmenu_hover_20.png" />
-    <Content Include="_imgs\theme\Outlook14Silver\contextmenu_hover_22.png" />
-    <Content Include="_imgs\theme\Outlook14Silver\FormHeaderGradientTop.png" />
-    <Content Include="_imgs\theme\Outlook14Silver\FormTabLinkGradient.png" />
-    <Content Include="_imgs\theme\Outlook14Silver\form_back.png" />
-    <Content Include="_imgs\theme\Outlook14Silver\form_masthead.png" />
-    <Content Include="_imgs\theme\Outlook14Silver\form_toolbar_back.png" />
-    <Content Include="_imgs\theme\Outlook14Silver\GridColumnGradient.png" />
-    <Content Include="_imgs\theme\Outlook14Silver\GridColumnGradientHover.png" />
-    <Content Include="_imgs\theme\Outlook14Silver\GridTitleBarHorzLine.png" />
-    <Content Include="_imgs\theme\Outlook14Silver\GridToolbarBkgd.png" />
-    <Content Include="_imgs\theme\Outlook14Silver\Masthead.png" />
-    <Content Include="_imgs\theme\Outlook14Silver\Masthead_rtl.png" />
-    <Content Include="_imgs\theme\Outlook14Silver\mnu_hSpacer.png" />
-    <Content Include="_imgs\theme\Outlook14Silver\mnu_hSpacerGrid.png" />
-    <Content Include="_imgs\theme\Outlook14Silver\nav_hover_highlight.png" />
-    <Content Include="_imgs\theme\Outlook14Silver\RightClickMenuChannel.png" />
-    <Content Include="_imgs\theme\Outlook14Silver\TabGradient.gif" />
-    <Content Include="_nav\nav.css" />
-    <Content Include="_nav\tabs.css" />
-    <Content Include="_static\_forms\controls\form.crm.htc" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="styles\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -1,6 +1,0 @@
-<public:component lightweight="true">
-<public:attach event="onmouseover" onevent="RenderToolTip()"/>
-<script language="JavaScript"></script><script type="text/javascript">
-function RenderToolTip(){if(this.title==""&&this.innerText!="")this.title=this.innerText}
-</script>
-</public:component>

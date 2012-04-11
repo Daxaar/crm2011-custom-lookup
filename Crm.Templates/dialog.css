@@ -214,7 +214,6 @@ TD.ms-crm-Cal-Month-DayOfWeek
 button
 {
 	border-color:#666666;
-	/*background-image:url(_common/../_imgs/theme/Outlook14Silver/ButtonNormalGradient.png);*/
 	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAUCAMAAAB70KeTAAAAA3NCSVQICAjb4U/gAAAAM1BMVEX////y8vLx8fHw8PDv7+/u7u7s7Ozd3d3b29va2trZ2dnX19fV1dXT09PS0tLR0dG2trbjSpxwAAAACXBIWXMAAAsSAAALEgHS3X78AAAAFnRFWHRDcmVhdGlvbiBUaW1lADAzLzMxLzEwyTLRCQAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNAay06AAAAAdSURBVAiZY2BgYIRDFiBkA0J2IOQEQm4g5AVDAQAGTACHePsLXwAAAABJRU5ErkJggg==);
 }
 
@@ -560,4 +559,8 @@ table.ms-crm-List-StatusBar
     table-layout: fixed;
     border-top-width: 1px;
     border-top-style: solid;
+}
+
+.rowImage {
+    display:inline
 }

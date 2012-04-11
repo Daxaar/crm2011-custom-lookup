@@ -3,23 +3,9 @@
     <meta http-equiv="Content-Type" content="text/html; CHARSET=utf-8">
     <title data-bind="text: title"></title>
     <script type="text/javascript" src="knockout-2.0.0.js"></script>
-
     <script type="text/javascript" src="jquery-1.7.2.js"></script>
     <script type="text/javascript" src="lookupForm.js"></script>
-    
-
-    <!--    <link rel="stylesheet" type="text/css" href="_common/styles/fonts.css" />-->
-    <!--<link rel="stylesheet" type="text/css" href="_common/styles/global.css" />--> 
-    <!--<link rel="stylesheet" type="text/css" href="_common/styles/theme.css" />-->
-    <!--<link rel="stylesheet" type="text/css" href="_common/styles/dialogs.css" />-->
-    <!--<link rel="stylesheet" type="text/css" href="_common/styles/select.css" />-->
-    <!--<link rel="stylesheet" type="text/css" href="_forms/controls/form.css" />-->
-    <!--<link rel="stylesheet" type="text/css" href="_forms/controls/controls.css" />-->
-    <!--<link rel="stylesheet" type="text/css" href="_controls/lookup/lookupdialogs.css" />-->
-    <!--<link rel="stylesheet" type="text/css" href="_grid/appgrid.css" />-->
-    
     <link rel="stylesheet"type="text/css" href="dialog.css"/>
-
 </head>
 <body>
     <div style="width: 100%; height: 100%; overflow: auto">
@@ -95,7 +81,7 @@
         <tr class="ms-crm-List-Row">
             <td class="ms-crm-List-DataCell" align="center">
             <input type="checkbox" class="ms-crm-RowCheckBox"/></td>
-            <td class="ms-crm-List-DataCell" align="center"><img src="_imgs/ico_16_8.gif" alt="" /></td>
+            <td class="ms-crm-List-DataCell" align="center"><img data-bind="attr: {src: $root.rowIcon}, style:{display: $root.rowIcon == '' ? 'none' : 'inline'}" alt=""/></td>
             <!-- ko foreach: $data -->
                 <td class="ms-crm-List-DataCell"><nobr data-bind="text: $data"></nobr></td>
             <!-- /ko -->
@@ -116,13 +102,8 @@
 <table cellspacing="0" cellpadding="0" id="gridStatusBar" class="ms-crm-List-StatusBar">
 <tr>
 <td nowrap class="ms-crm-List-StatusBar-Label" id="crmGrid_RecordSelectInfo">
-<!--<span id="crmGrid_FirstItem" data-bind="text: ">0</span> - <span id="crmGrid_LastItem">0</span>
-<span id="crmGrid_TotalCountInfo">&nbsp;of <span id="crmGrid_ItemsTotal">0</span></span>
-<span id="crmGrid_ItemsSelectedInfo">&nbsp;(<span id="crmGrid_ItemsSelected">0</span>
-selected)</span><span id="crmGrid_RecordSelectEndMarker" style="visibility: hidden;">M</span>
---></td>
+</td>
 <td nowrap id="crmGrid_PageInfo" class="ms-crm-List-Paging">
-<!--Insert Paging Code-->
 </td>
 </tr>
 </table>
@@ -165,9 +146,9 @@ height: 23px; width: 357px;'>
 <tr>
 <td class="ms-crm-Dialog-Footer ms-crm-Dialog-Footer-Left">&nbsp;</td>
 <td class="ms-crm-Dialog-Footer ms-crm-Dialog-Footer-Right">
-<button id="butBegin" class="ms-crm-Button" onmouseover="Mscrm.ButtonUtils.hoverOn(this);" onmouseout="Mscrm.ButtonUtils.hoverOff(this);" data-bind="click: actions.ok">OK</button>&nbsp;
-<button id="cmdDialogCancel" class="ms-crm-Button" onmouseover="Mscrm.ButtonUtils.hoverOn(this);" onmouseout="Mscrm.ButtonUtils.hoverOff(this);" data-bind="click: actions.cancel">Cancel</button>&nbsp;
-<button id="btnRemoveValue" class="ms-crm-Button" onmouseover="Mscrm.ButtonUtils.hoverOn(this);"onmouseout="Mscrm.ButtonUtils.hoverOff(this);" disabled data-bind="click: actions.remove">Remove Value</button>
+<button id="butBegin" class="ms-crm-Button" data-bind="click: actions.ok">OK</button>&nbsp;
+<button id="cmdDialogCancel" class="ms-crm-Button" data-bind="click: actions.cancel">Cancel</button>&nbsp;
+<button id="btnRemoveValue" class="ms-crm-Button" disabled data-bind="click: actions.remove">Remove Value</button>
 </td>
 </tr>
 </table>
