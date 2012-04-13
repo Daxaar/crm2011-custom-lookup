@@ -43,7 +43,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="dialog.css" />
+    <Content Include="lookupForm.css" />
     <Content Include="jquery-1.7.2.js" />
     <Content Include="knockout-2.0.0.js" />
     <Content Include="lookupForm.html" />
