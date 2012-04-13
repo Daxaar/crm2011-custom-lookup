@@ -1,0 +1,6 @@
+An html web page that can be used as a custom dialog in CRM 2011.  The original CRM 2011 css has been reduced to the a minimum and knockoutjs added to provide nice separation of data from the HTML.  All you need to do is apply the necessary data to the viewModel in whatever way suits.
+
+TODO:
+Create as a CRM 2011 solution
+Samples
+...
